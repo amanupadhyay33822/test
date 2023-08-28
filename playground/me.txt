@@ -1,5 +1,0 @@
-{{#user}}
-Name: Aman Upadhyay
-Skills: HTML, CSS,tailwind CSS, JS, React, NodeJs , MongoDb,Express
-Email: amanupadhyay33822@gmail.com
-{{/user}}
