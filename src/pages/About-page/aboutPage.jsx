@@ -78,7 +78,6 @@ const About = () => {
       {/* Home section start */}
       <section className="home company" id="home" style={{ backgroundImage: 'url(./about-page-images/company-image.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
         <h1 style={{
-          fontSize:'20vh',
           top:"1"
         }}>AMBUvians</h1>
       </section>
