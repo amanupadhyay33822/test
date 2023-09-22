@@ -1,0 +1,30 @@
+/* title heading style */
+
+
+.title h1 {
+    background: linear-gradient(to right, #0092ee 0%, #203381 100%);
+    background-clip: text;
+
+
+    -webkit-background-clip: text;
+    font-family: Kadwa, Calibri, serif;
+
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* title paragraph style */
+
+.title p {
+    color: rgba(3, 5, 36, 0.46);
+    font-family: Kaisei Decol, Calibri, serif;
+    font-size: 2.25vw;
+    font-style: normal;
+
+    font-weight: 700;
+    text-align: center;
+}
