@@ -192,7 +192,7 @@ a {
     position: relative;
     display: flex;
     color: #000000;
-    min-height: 100vh;
+    min-height: 100vw;
     background-size: cover;
     background-position-y: 0px;
     background-attachment: fixed;
@@ -209,7 +209,7 @@ a {
     position: absolute;
     text-align: center;
     width: 70%;
-    height: 90%;
+    height: 50vw;
     left: 0;
     right: 0;
     top: 0;
@@ -483,6 +483,11 @@ main {
         font-size: 4rem;
     }
 }
+@media (min-width: 800px) and (max-width: 2160px) {
+    .about-we-text {
+        height: 70vw;
+    }
+}
 
 @media (min-width: 1441px) and (max-width: 2560px) {
     .company h1 {
@@ -588,7 +593,7 @@ main {
     }
 
     .who-we-are-text {
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 1.2;
     }
 
@@ -663,6 +668,10 @@ main {
     .quotes p {
         font-size: 2.4rem;
     }
+    .about-we-text {
+        width: 85%;
+        height: 80vw;
+    }
 
     .about-we {
         height: 60vh;
@@ -710,6 +719,14 @@ main {
         font-size: 1.5rem;
         line-height: 2.25rem;
     }
+    .about-we-text {
+        width: 85%;
+        height: 90vw;
+    }
+
+    .about-we {
+        height: 60vh;
+    }
 
     .choose-us h2 {
         font-size: 4rem;
@@ -749,18 +766,27 @@ main {
     }
     .about-we-text h2 {
         font-size: 2rem;
-        padding-top: 4rem;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
     }
     .about-we {
         height: 40vh;
     }
 
     .who-we-are-text {
-        font-size: 1.4rem;
+        font-size: 1.15rem;
         line-height: 1.75rem;
     }
 
     .choose-us h2 {
         font-size: 4rem;
+    }
+    .about-we-text {
+        width: 85%;
+        height: 90vw;
+    }
+
+    .about-we {
+        height: 70vh;
     }
 }
