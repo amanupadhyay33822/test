@@ -34,6 +34,8 @@ import twitter from '../assets/home_assets/twitter.png'
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
+import "./Home.css"
+
 
  
 
