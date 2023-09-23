@@ -5,7 +5,7 @@
     background-size: 100vw;
     height: 85vw; /* You must set a specified height */
     position: relative;
-    margin-bottom: -15vh;
+    margin-bottom: -14vw;
 }
 
 /* .customer support heading style */
@@ -41,15 +41,27 @@
 ##Screen = 1281px to higher resolution desktops
 */
 
+@media (min-width: 1281px) {
+    .customer-support-div {
+        margin-bottom: -8vw;
+    }
+}
+
 @media (min-width: 1025px) and (max-width: 1280px) {
     .underline {
         background-size: 30% 5px;
+    }
+    .customer-support-div {
+        margin-bottom: -10vw;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .underline {
         background-size: 30% 5px;
+    }
+    .customer-support-div {
+        margin-bottom: -12vw;
     }
 }
 /* 
@@ -77,6 +89,6 @@
         background-size: 30% 3px;
     }
     .customer-support-div {
-        margin-bottom: -13vh;
+        margin-bottom: -19vw;
     }
 }

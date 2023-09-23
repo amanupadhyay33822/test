@@ -319,6 +319,10 @@ a {
         width: 15vw;
         height: 5vw;
     }
+    .connect img {
+        height: auto;
+        width: 40px;
+    }
 }
 
 /* 
@@ -385,6 +389,15 @@ a {
 
     .form-close-btn {
         font-size: 0.6rem;
+    }
+
+    .download .appstore img {
+        width: 20vw;
+        height: 8vw;
+    }
+    .download .playstore img {
+        width: 20vw;
+        height: 8vw;
     }
 }
 
