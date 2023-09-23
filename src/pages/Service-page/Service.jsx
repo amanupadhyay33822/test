@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 import "./Service.css"
 const Service = () => {
     return ( 
-    <div className="main">
+    <div className="main" style={{overflowX:"hidden"}} >
         <Navbar/>
         <Title/>
         <AmbulanceTypes />

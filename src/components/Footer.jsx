@@ -46,8 +46,8 @@ function Footer() {
 
   return (
     <div className="footer box">
-      <div style={{ fontSize: '1.5vw', margin: '1vw', alignItems: 'center' }} className="footer-title">
-        <img loading="lazy" src="images/Footer-images/indian-map.svg" alt="India map" style={{ width: '4vw' }} />
+      <div style={{ fontSize: '1.25vw', margin: '1vw', alignItems: 'center' }} className="footer-title">
+        <img loading="lazy" src="images/Footer-images/indian-map.svg" alt="India map" style={{ width: '3vw' }} />
         <h1>&nbsp; India's First Unified Health Care Software</h1>
       </div>
 
@@ -79,7 +79,7 @@ function Footer() {
         </div>
 
         {/* Connect */}
-        <div className="connect">
+        <div className="connect1">
           <h2>
             <abbr title="Connect With Us">Connect With Us</abbr>
           </h2>
@@ -91,7 +91,7 @@ function Footer() {
           <h2>
             <abbr title="Contact Us">Contact Us</abbr>
           </h2>
-          <ul style={{ maxWidth: '400px' }}>
+          <ul style={{ maxWidth: '1000px' }}>
             {/* Contact Info */}
             <li style={{ display: 'flex', alignItems: 'center' }}>
               <div><abbr title="Location"><img loading="lazy" src="images/Footer-images/location icon.webp" alt="location" style={{ width: '3.5vw', marginRight: '1.5vw' }} /></abbr></div>
@@ -107,7 +107,7 @@ function Footer() {
             </li>
 
             {/* Email */}
-            <li style={{ display: 'flex', alignItems: 'center' }}>
+            <li style={{ display: 'flex', alignItems: 'center', }}>
               <div><abbr title="Mail"><img loading="lazy" src="images/Footer-images/gmail.svg" alt="Mail" style={{ width: '3.5vw', marginRight: '1.5vw' }} /></abbr></div>
               <div style={{ fontSize: '1.2vw', alignItems:"baseline" }}>
                 <a href="mailto:official.ambuvians@gmail.com">

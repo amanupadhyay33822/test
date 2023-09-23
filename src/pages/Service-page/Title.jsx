@@ -7,14 +7,14 @@ import { Parallax } from 'react-parallax';
 const Title = () => {
     return (
         <section className="title box hidden" style={{
-            paddingLeft:'10vh'
+            paddingLeft:'0vh',
+            paddingRight:'0vh',
+            marginTop:'4vw'
         }}>
-            <Parallax style={{
-                height:'100vh'
-            }} strength={300} bgImage='./images/Service-images/service page first section.webp'>
+            <Parallax strength={300} bgImage='./images/Service-images/service page first section.webp' className='para'>
             <div>
             <h1 style={{
-                marginTop:'4vh'
+               
             }}><abbr title="MEDICAL means AMBUvians">MEDICAL means AMBUvians</abbr></h1>
             <p>We will try to provide the best, fastest, and safest ambulance service all over INDIA</p>
             </div>

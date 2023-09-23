@@ -44,7 +44,7 @@ const Home = () =>{
     return(
         <>
         <Navbar/>
-        <section>
+        <section  >
     
 {/* <!-- nav bar ends here --> */}
 {/* <!-- first section --> */}

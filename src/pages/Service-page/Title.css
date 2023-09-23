@@ -1,10 +1,8 @@
 /* title heading style */
 
-
 .title h1 {
     background: linear-gradient(to right, #0092ee 0%, #203381 100%);
     background-clip: text;
-
 
     -webkit-background-clip: text;
     font-family: Kadwa, Calibri, serif;
@@ -14,7 +12,6 @@
     font-weight: 700;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    
 }
 
 /* title paragraph style */
@@ -27,4 +24,15 @@
 
     font-weight: 700;
     text-align: center;
+}
+
+.para {
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    transform: translate3d(-50%, -8.60215px, 0px);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    width: auto;
+    filter: none;
 }

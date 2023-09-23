@@ -17,7 +17,7 @@ header {
     top: 0;
     justify-content: space-between;
     transition: 0.3s;
-    width: 100vw;
+    width: 100%;
     z-index: 10;
 }
 
@@ -109,7 +109,7 @@ header {
     overflow: hidden;
     padding: 0.5vw;
     position: fixed;
-    right: 1.5vw;
+    right: 1%;
     top: 4.5vw;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     width: 200px;
@@ -187,7 +187,7 @@ header {
 
 @media (max-width: 500px) {
     .dropdown_menu {
-        right: 2.5%;
+        left: 2.5%;
         width: 90%;
     }
 }
