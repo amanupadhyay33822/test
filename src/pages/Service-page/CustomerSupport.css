@@ -23,11 +23,9 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    
 }
 .customer-support-figcaption {
     font-family: "Kaisei Decol", Calibri, serif;
-
 }
 
 /* customer support img style */
@@ -78,6 +76,7 @@
     .underline {
         background-size: 30% 3px;
     }
-    
-   
+    .customer-support-div {
+        margin-bottom: -13vh;
+    }
 }

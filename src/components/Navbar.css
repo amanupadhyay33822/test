@@ -11,7 +11,7 @@ header {
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     gap: 2vw;
-    height: 5vw;
+    height: 7vh;
     padding: 0.5rem 3rem;
     position: fixed;
     top: 0;
@@ -27,7 +27,7 @@ header {
 
 #logo1 {
     flex: 1;
-    height: 4.5vw;
+    height: 6vh;
     margin-top: 0vw;
 }
 
@@ -89,16 +89,15 @@ header {
 .pic {
     border-color: rgb(129, 129, 191);
     border-radius: 1.25vw;
-    border-style: solid;
-    border-width: 0.125vw;
     cursor: pointer;
-    height: 2vw;
+    height: 3vh;
+    padding-right: 1rem;
 }
 
 .toggle_btn {
     cursor: pointer;
     display: none;
-    font-size: 1.5vw;
+    font-size: 3vh;
 }
 
 /* Drop down list style which is visible on mobile */
@@ -109,8 +108,8 @@ header {
     overflow: hidden;
     padding: 0.5vw;
     position: fixed;
-    right: 1%;
-    top: 4.5vw;
+    right: 3%;
+    top: 8vh;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     width: 200px;
     z-index: 10;

@@ -277,6 +277,20 @@ a {
     transform-origin: bottom left;
 }
 
+/* download from appstore and playstore*/
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 0px;
+}
+
+.download img {
+    margin-right: 0px;
+}
+
 @media (min-width: 1025px) {
     .form {
         width: 30vw;
@@ -296,6 +310,14 @@ a {
     }
     .form-close-btn {
         font-size: 1.5rem;
+    }
+    .download .appstore img {
+        width: 15vw;
+        height: 4vw;
+    }
+    .download .playstore img {
+        width: 15vw;
+        height: 5vw;
     }
 }
 
@@ -323,6 +345,14 @@ a {
     }
     .form-close-btn {
         font-size: 1rem;
+    }
+    .download .appstore img {
+        width: 15vw;
+        height: 4vw;
+    }
+    .download .playstore img {
+        width: 15vw;
+        height: 5vw;
     }
 }
 
@@ -396,31 +426,15 @@ a {
     .form {
         bottom: 7.5%;
     }
-}
 
-/* download from appstore and playstore*/
-
-.download {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-}
-
-.download img {
-    margin-right: 0px;
-}
-
-.download .appstore img {
-    height: auto;
-    width: 200px;
-}
-
-.download .playstore {
-    margin-top: 63px;
-}
-.download .playstore img {
-    height: 65px;
-    width: 180px;
+    .download .appstore img {
+        width: 20vw;
+        height: 8vw;
+    }
+    .download .playstore img {
+        width: 20vw;
+        height: 8vw;
+    }
 }
 
 /* copy right section*/
@@ -478,24 +492,6 @@ a {
     }
 
     /* download our app section */
-
-    .download .appstore img {
-        border-radius: 5px;
-        height: 38px;
-        margin-right: 10px;
-        margin-top: 7px;
-        width: 120px;
-    }
-
-    .download .playstore {
-        margin-top: 0px;
-    }
-
-    .download .playstore img {
-        border-radius: 4px;
-        height: 46px;
-        width: 125px;
-    }
 }
 
 /* for desktop */
@@ -519,7 +515,7 @@ a {
 
     .connect img {
         height: auto;
-        width: 30px;
+        width: 20px;
     }
 
     .connect .first-icon {
@@ -539,22 +535,4 @@ a {
     }
 
     /* download section */
-
-    .download .appstore img {
-        border-radius: 5px;
-        height: 38px;
-        margin-right: 10px;
-        margin-top: 7px;
-        width: 120px;
-    }
-
-    .download .playstore {
-        margin-top: 0px;
-    }
-
-    .download .playstore img {
-        border-radius: 4px;
-        height: 46px;
-        width: 125px;
-    }
 }

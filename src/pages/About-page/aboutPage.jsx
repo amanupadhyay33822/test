@@ -74,7 +74,11 @@ const About = () => {
   return (
     <>
     <Navbar/>
-    <div className="about-page-full-section">
+    <div className="about-page-full-section" style={{
+            paddingLeft:'0vh',
+            paddingRight:'0vh',
+            marginTop:'7.5vh'
+        }}>
       {/* Home section start */}
       <section className="home company" id="home" style={{ backgroundImage: 'url(./about-page-images/company-image.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
         <h1 style={{

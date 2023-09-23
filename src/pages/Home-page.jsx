@@ -51,7 +51,11 @@ const Home = () =>{
 {/* <!-- nav bar ends here --> */}
 {/* <!-- first section --> */}
    
-    <div className="top" >
+    <div className="top" style={{
+            paddingLeft:'0vh',
+            paddingRight:'0vh',
+            marginTop:'7.5vh'
+        }} >
         <motion.div  variants={fadeIn('down',0.3)} 
           initial="hidden"
           whileInView={'show'} className="left">

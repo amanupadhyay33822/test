@@ -31,10 +31,10 @@ const Navbar = () => {
 
     return (
         <header>
-            <div id="navbar" style={{ height: isScrolled ? '3.4vw' : '4vw' }}>
+            <div id="navbar" style={{ height: isScrolled ? '6.5vh' : '7vh' }}>
                 <div id="logo">
                     <a href="/">
-                        <img src="images/Navbar-images/ambu logo.webp" alt="ambuvians Logo" id="logo1" style={{ height: isScrolled ? '3.8vw' : '4.5vw' }} />
+                        <img src="images/Navbar-images/ambu logo.webp" alt="ambuvians Logo" id="logo1" style={{ height: isScrolled ? '5vh' : '6vh' }} />
                     </a>
                 </div>
                 <div className="right-header">

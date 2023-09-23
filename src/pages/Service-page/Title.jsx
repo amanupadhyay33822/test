@@ -9,7 +9,7 @@ const Title = () => {
         <section className="title box hidden" style={{
             paddingLeft:'0vh',
             paddingRight:'0vh',
-            marginTop:'4vw'
+            marginTop:'7.5vh'
         }}>
             <Parallax strength={300} bgImage='./images/Service-images/service page first section.webp' className='para'>
             <div>
