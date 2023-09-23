@@ -84,6 +84,7 @@ header {
     text-shadow: inherit;
     width: max-content;
     font-family: "Kaisei Decol", Calibri, serif;
+    margin-left: 5vw;
 }
 
 .pic {
@@ -186,7 +187,7 @@ header {
 
 @media (max-width: 500px) {
     .dropdown_menu {
-        left: 2.5%;
+        left: 5%;
         width: 90%;
     }
 }

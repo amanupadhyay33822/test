@@ -94,7 +94,7 @@ function Footer() {
           <ul style={{ maxWidth: '1000px' }}>
             {/* Contact Info */}
             <li style={{ display: 'flex', alignItems: 'center' }}>
-              <div><abbr title="Location"><img loading="lazy" src="images/Footer-images/location icon.webp" alt="location" style={{ width: '3.5vw', marginRight: '1.5vw' }} /></abbr></div>
+              <div><abbr title="Location"><img loading="lazy" src="images/Footer-images/location icon.webp" alt="location" style={{ width: '3vw', marginRight: '1.5vw' }} /></abbr></div>
               <div style={{ fontSize: '1.2vw' }}>
                 <a href="https://goo.gl/maps/Y2Eoynbw8ZAyd8NJ6">
                   <abbr title="XYZ ABC Technology Business Incubation Utter Pradesh India">
@@ -108,7 +108,7 @@ function Footer() {
 
             {/* Email */}
             <li style={{ display: 'flex', alignItems: 'center', }}>
-              <div><abbr title="Mail"><img loading="lazy" src="images/Footer-images/gmail.svg" alt="Mail" style={{ width: '3.5vw', marginRight: '1.5vw' }} /></abbr></div>
+              <div><abbr title="Mail"><img loading="lazy" src="images/Footer-images/gmail.svg" alt="Mail" style={{ width: '3vw', marginRight: '1.5vw' }} /></abbr></div>
               <div style={{ fontSize: '1.2vw', alignItems:"baseline" }}>
                 <a href="mailto:official.ambuvians@gmail.com">
                   <abbr title="official.ambuvians@gmail.com">official.ambuvians@gmail.com</abbr>
@@ -121,7 +121,7 @@ function Footer() {
 
             {/* Phone Numbers */}
             <li style={{ display: 'flex', alignItems: 'center', marginBottom: '1vw' }}>
-              <div><abbr title="Phone No."><img loading="lazy" src="images/Footer-images/icon_phone.webp" alt="Call" style={{ width: '3vw', marginRight: '1.5vw' }} /></abbr></div>
+              <div><abbr title="Phone No."><img loading="lazy" src="images/Footer-images/icon_phone.webp" alt="Call" style={{ width: '2.5vw', marginRight: '1.5vw' }} /></abbr></div>
               <div style={{ fontSize: '1.2vw' }}>
                 <a href="tel:+917505853812"><abbr title="7505853812">7505853812</abbr></a>
                 <a href="tel:+918630729931"><abbr title="8630729931">8630729931</abbr></a>
@@ -167,7 +167,7 @@ function Footer() {
 
       {/* Download Section */}
       <div className="download">
-        <div className="appstore">
+        {/* <div className="appstore">
           <abbr title="app-store">
             <img loading="lazy" src="images/Footer-images/app-store.webp" alt="App Store" />
           </abbr>
@@ -176,7 +176,10 @@ function Footer() {
           <abbr title="play-store">
             <img loading="lazy" src="images/Footer-images/play-store.webp" alt="Play Store" />
           </abbr>
-        </div>
+        </div> */}
+          <h2>
+              <abbr title="See Our Handbook"><a href="/" className='handbook'>See Our Handbook</a></abbr>
+            </h2>
       </div>
 
       {/* Copyright */}

@@ -128,10 +128,6 @@ input[type="number"] {
         text-align: center;
     }
 
-    .connect img {
-        height: auto;
-        width: 25px;
-    }
     .choose {
         margin-top: 15vh;
     }

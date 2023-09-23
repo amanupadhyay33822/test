@@ -286,6 +286,9 @@ a {
     gap: 3vw;
     margin-top: 0px;
 }
+.handbook {
+    font-size: 4vw;
+}
 
 .download img {
     margin-right: 0px;
@@ -501,7 +504,7 @@ a {
     }
 
     .connect img {
-        width: 10px;
+        width: 5vw;
     }
 
     /* download our app section */
@@ -528,7 +531,7 @@ a {
 
     .connect img {
         height: auto;
-        width: 20px;
+        width: 3vw;
     }
 
     .connect .first-icon {

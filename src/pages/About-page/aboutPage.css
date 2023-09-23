@@ -130,7 +130,7 @@ a {
 .about {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -167,7 +167,7 @@ a {
     color: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    height: 65vh;
+    /* height: 65vh; */
     font-family: "Kalam", cursive;
     width: 45%;
     font-size: 32px;
@@ -197,6 +197,19 @@ a {
     background-position-y: 0px;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
+}
+
+.about-we-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.about p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-text h1 {
@@ -504,8 +517,12 @@ main {
     .about-text h1 {
         font-size: 7rem;
     }
+    .about {
+        height: 60vw;
+    }
     .about p {
-        font-size: 5rem;
+        font-size: 4.5rem;
+        height: 45vw;
     }
     .quotes p {
         font-size: 3rem;
@@ -530,6 +547,13 @@ main {
         font-size: 4rem;
         line-height: 5.5rem;
     }
+    .about p {
+        font-size: 4rem;
+        height: 60vw;
+    }
+    .about {
+        height: 80vw;
+    }
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
@@ -543,8 +567,11 @@ main {
     .about-text h1 {
         font-size: 6rem;
     }
+    .about {
+        height: 80vw;
+    }
     .about p {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .quotes p {
         font-size: 3rem;
@@ -581,8 +608,12 @@ main {
     .about-text h1 {
         font-size: 6rem;
     }
+    .about {
+        height: 80vw;
+    }
     .about p {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        height: 50vw;
     }
     .quotes p {
         font-size: 3rem;
@@ -623,8 +654,12 @@ main {
     .about-text h1 {
         font-size: 5rem;
     }
+    .about {
+        height: 80vw;
+    }
     .about p {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
+        height: 50vw;
     }
     .quotes p {
         font-size: 2.4rem;
@@ -660,10 +695,14 @@ main {
     }
 
     .about-text h1 {
-        font-size: 4rem;
+        font-size: 5rem;
+    }
+    .about {
+        height: 130vw;
     }
     .about p {
-        font-size: 2rem;
+        font-size: 3rem;
+        height: 100vw;
     }
     .quotes p {
         font-size: 2.4rem;
@@ -706,6 +745,7 @@ main {
     }
     .about p {
         font-size: 2rem;
+        height: 60vw;
     }
     .quotes p {
         font-size: 2.4rem;
@@ -757,6 +797,9 @@ main {
 
     .about-text h1 {
         font-size: 4rem;
+    }
+    .about {
+        height: 140vw;
     }
     .about p {
         font-size: 2rem;
