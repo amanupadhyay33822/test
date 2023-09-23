@@ -178,7 +178,7 @@ function Footer() {
           </abbr>
         </div> */}
           <h2>
-              <abbr title="See Our Handbook"><a href="/" className='handbook'>See Our Handbook</a></abbr>
+              <abbr title="See Our Handbook"><a href="https://heyzine.com/flip-book/c538e2deab.html" className='handbook'>See Our Handbook</a></abbr>
             </h2>
       </div>
 

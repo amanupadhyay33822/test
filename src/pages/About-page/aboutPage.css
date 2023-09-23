@@ -547,6 +547,10 @@ main {
         font-size: 4rem;
         line-height: 5.5rem;
     }
+    .about-we-text {
+        height: 69vw;
+    }
+
     .about p {
         font-size: 4rem;
         height: 60vw;
@@ -589,6 +593,9 @@ main {
     .choose-us h2 {
         font-size: 4rem;
     }
+    .about-we-text {
+        height: 60vw;
+    }
 }
 
 /* 
@@ -630,6 +637,9 @@ main {
 
     .choose-us h2 {
         font-size: 4rem;
+    }
+    .about-we-text {
+        height: 60vw;
     }
 }
 
@@ -677,6 +687,9 @@ main {
     .choose-us h2 {
         font-size: 4rem;
     }
+    .about-we-text {
+        height: 55vw;
+    }
 }
 
 /* 
@@ -709,7 +722,7 @@ main {
     }
     .about-we-text {
         width: 85%;
-        height: 80vw;
+        height: 55vw;
     }
 
     .about-we {
@@ -819,6 +832,7 @@ main {
     .who-we-are-text {
         font-size: 1.15rem;
         line-height: 1.75rem;
+        padding: 0 0.5vw;
     }
 
     .choose-us h2 {
@@ -826,10 +840,16 @@ main {
     }
     .about-we-text {
         width: 85%;
-        height: 90vw;
+        height: 75vw;
     }
 
     .about-we {
-        height: 70vh;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+    .about-we-text {
+        height: 60vw;
     }
 }

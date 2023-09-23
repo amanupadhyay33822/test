@@ -46,36 +46,34 @@ const Home = () =>{
     return(
         <>
         <Navbar/>
-        <section  >
+        <section>
     
 {/* <!-- nav bar ends here --> */}
 {/* <!-- first section --> */}
+<div className="First-section">
+  {/* div for the right image and background  */}
+      <motion.div 
+        variants={fadeIn('down',0.3)} 
+        initial="hidden"
+        whileInView={'show'} 
+        className="right">
+                  <img className="am" src={cover}  alt="ambulance"/> 
+                  <img id="bg" src={background} alt="Background"/> 
+      </motion.div>
+  {/* div for left text and facts button  */}
+      <motion.div  
+        variants={fadeIn('down',0.3)} 
+        initial="hidden"
+        whileInView={'show'}
+        className="left">
+                <a href="/inactive url" id="ambuvians">AMBUvians</a>
+                <a href="/inactive url" id="slogan">India's First One-Stop Solution of all medical problems</a>
+                <button id="facts">FACTS</button>
+      </motion.div>
+
+</div>
    
-    <div className="top" style={{
-            paddingLeft:'0vh',
-            paddingRight:'0vh',
-            marginTop:'7.5vh'
-        }} >
-        <motion.div  variants={fadeIn('down',0.3)} 
-          initial="hidden"
-          whileInView={'show'} className="left">
-            <a href="/inactive url" id="ambuvians">AMBUvians</a>
-            <a href="/inactive url" id="slogan">India's First One-Stop Solution of all medical problems</a>
-            <button id="facts">FACTS</button>
-        </motion.div>
-        
-        
-      <motion.div variants={fadeIn('down',0.3)} 
-          initial="hidden"
-          whileInView={'show'} className="right">
-            <div className="ambulance">
-                <img id="am" src={cover}  alt="ambulance"/> 
-                <img id="bg" src={background} alt="Background"/>  
-      </div>
-            
-    </motion.div>
-    
-      </div>
+ 
    
 {/* <!-- first section ends here --> */}
 {/* <!-- reach-out section fixed in the bottom left corner --> */}
@@ -96,14 +94,7 @@ const Home = () =>{
                   <a href="/inactive url" id="section-upper-text">INDIA's best</a>
                   <a href="/inactive url" id="section-lower-text">Medical SERVICE</a>
                 </div>
-                <div className="sectionback" style={{
-                  fontSize:'24px',
-                  display:'flex',
-                  justifyContent:'center',
-                  color:'white',
-                  textAlign:'center',
-                  alignItems:'center'
-                 }}>
+                <div className="sectionback">
                 We provide comprehensive medical services with care and dedication. Trust us for your well-being and a better life.
                 </div>
               </div>
@@ -115,15 +106,7 @@ const Home = () =>{
                   <a href="/inactive url" id="section-upper-text">Saving Life</a>
                   <a href="/inactive url" id="section-lower-text">with Perfection</a>
                 </div>
-                <div className="sectionback" style={{
-                  fontSize:'24px',
-                  display:'flex',
-                  justifyContent:'center',
-                  color:'white',
-                  textAlign:'center',
-                  alignItems:'center'
-              
-                }}>
+                <div className="sectionback">
                 We recognize the immense value of every life and the need for precise healthcare. Our expert tech team delivers excellence through technology at Ambuvians.
                 </div>
               </div>
@@ -135,14 +118,7 @@ const Home = () =>{
                   <a href="/inactive url" id="section-upper-text">Economical and</a>
                   <a href="/inactive url" id="section-lower-text">Fastest</a>
                 </div>
-                <div className="sectionback" style={{
-                  fontSize:'24px',
-                  display:'flex',
-                  justifyContent:'center',
-                  color:'white',
-                  textAlign:'center',
-                  alignItems:'center'
-                }}>
+                <div className="sectionback">
                 We seamlessly blend cost-efficiency and speed with our tech-driven Fast-Track solutions, saving lives.
 
                 </div>
@@ -170,13 +146,7 @@ const Home = () =>{
             borderRadius:'15px 0 0 0'
           }} id="four" src={know_more_bottom_right} alt=""/>
         <Link to="/services">
-        <button style={{
-          height:'40px',
-          width:'160px',
-          marginLeft:'45vw',
-          maxHeight:'30px'
-          
-        }} id="more">Know more</button>
+        <button id="more">Know more</button>
         </Link>
       </div>
     </div> 
@@ -300,7 +270,7 @@ const Home = () =>{
       <div className="rightnote">
         <a href="/inactive url" id="dir">Director's Note</a>
         <a href="/inactive url" id="yash">Dr. Rahat Ullah Khan</a>
-        <a href="/inactive url" id="ed">Founder & Executive Director</a>
+        {/* <a href="/inactive url" id="ed">Founder & Executive Director</a> */}
         <a href="/inactive url" id="aim">Imagine the sky as your limit, yet even that is a self-imposed boundary.
         Ambuvians Healthcare Defies limit Daily, pushing medical Frontier. Let your potential soar; Ambuvians proves that even the clouds are meant to be surpassed. 
         </a>
