@@ -84,9 +84,9 @@ a {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-@media (min-device-width : 320px) and (max-device-width : 479){
-    .right{
-        height:100vh;
+@media (min-device-width: 320px) and (max-device-width: 479) {
+    .right {
+        height: 100vh;
         margin-left: 20vw;
     }
     .left {
@@ -94,28 +94,26 @@ a {
         margin-top: -50vh;
         margin-bottom: 10vh;
     }
-    .sectionback{
+    .sectionback {
         font-size: 8px;
         color: white;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .text-area{
+    .text-area {
         display: flex;
         flex-direction: column;
         top: 0;
     }
-    .First-section{
+    .First-section {
         display: flex;
         flex-direction: column;
-
     }
-    .btn{
+    .btn {
         height: 20px;
-        width:200px
+        width: 200px;
     }
-    
 }
 
 /* to remove up and down arrow in input tag */
@@ -142,7 +140,7 @@ input[type="number"] {
 
 @media only screen and (max-width: 600px) {
     /* connect from us section */
-    .right{
+    .right {
         display: flex;
         position: relative;
         justify-content: end;
@@ -150,7 +148,7 @@ input[type="number"] {
         height: 50vh;
         width: 50vw;
     }
-    .am{
+    .am {
         width: 50vw;
         margin-top: 10vh;
     }
@@ -159,14 +157,14 @@ input[type="number"] {
         margin-top: -50vh;
         margin-bottom: 10vh;
     }
-    .sectionback{
+    .sectionback {
         font-size: 8px;
         color: white;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-   
+
     .connect p {
         color: white;
         letter-spacing: 2px;
@@ -193,8 +191,8 @@ input[type="number"] {
         height: 20px;
         width: 150px;
         justify-content: center;
-        margin-left: 35vh;
-        
+        position: absolute;
+        top: 160%;
     }
     /* download our app section */
 }
@@ -202,24 +200,23 @@ input[type="number"] {
 /* for desktop */
 
 @media (min-width: 601px) {
-    .right{
+    .right {
         display: flex;
         position: relative;
         margin-left: 50vw;
         width: 50vw;
         height: 100vh;
     }
-    .am{
+    .am {
         width: 40vw;
         margin-top: 10vh;
-       
     }
     .left {
         position: relative;
         margin-top: -110vh;
         margin-bottom: 30vh;
     }
-    .sectionback{
+    .sectionback {
         font-size: 24px;
         color: white;
         justify-content: center;
@@ -229,12 +226,12 @@ input[type="number"] {
     #more {
         margin-top: 43vh;
         height: 40px;
-        width: 150px;
+        width: 100px;
         justify-content: center;
-        margin-left: 90vh;
-        
+        position: absolute;
+        top: 90%;
     }
-   
+
     /* connect us section */
 
     /* download section */
@@ -256,9 +253,6 @@ input[type="number"] {
         font-size: x-large;
     }
 
-   
-    
-   
     .choose {
         margin-top: 40vh;
     }
