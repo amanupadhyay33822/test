@@ -3,46 +3,68 @@ import "./Footer.css"
 
 function Footer() {
   const [showForm, setShowForm] = useState(false);
+  const [email, setEmail] = useState('');
 
   const hideForm = ()=> {document.querySelector(".form-close-btn").addEventListener("click", () => {
     document.querySelector(".form").style.display = "none";
   });}
+
   const handleContactUsClick = () => {
     setShowForm(true);
     document.querySelector(".form").style.display = "block";
 
   };
 
+const handleSubmit = (e) => {
+  e.preventDefault(); // Prevent the default form submission behavior
 
-  const handleSubmit = () => {
-    // Your submission logic here
-    // You may clear input values, display a thank you message, etc.
-    document.querySelectorAll(".form-input").forEach((input) => (input.value = ""));
-    document.querySelector(".form").innerHTML = `
-      <div class="form-item" data-animation="fadeOff">
-        <div>
-          <figure><img loading="lazy" src="/images/Footer-images/ambu logo.webp" alt="ambu logo" class="form-logo"></figure>
-        </div>
-        <div>
-          <h1>Thank You</h1>
-        </div>
-        <div>
-          <p class="form-para-1">Our team will get back to you shortly!</p>
-        </div>
-        <p class="form-para-2">Stay Tuned</p>
+  // Get the email input element
+  const emailInput = document.querySelector("#email");
+
+  // Check if the email field is empty
+  if (email.trim() === '') {
+    // Display a warning message
+    emailInput.setCustomValidity("Email field is required.");
+    emailInput.reportValidity();
+    return; // Exit the function without further processing
+  }
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  if (!emailPattern.test(email)) {
+    // Display a warning message for email format
+    emailInput.setCustomValidity("Please enter a valid email address.");
+    emailInput.reportValidity();
+    return; // Exit the function without further processing
+  }
+
+  // Your submission logic here
+  // You may clear input values, display a thank you message, etc.
+  document.querySelectorAll(".form-input").forEach((input) => (input.value = ""));
+  document.querySelector(".form").innerHTML = `
+    <div class="form-item" data-animation="fadeOff">
+      <div>
+        <figure><img loading="lazy" src="/images/Footer-images/ambu logo.webp" alt="ambu logo" class="form-logo"></figure>
       </div>
-    `;
+      <div>
+        <h1>Thank You</h1>
+      </div>
+      <div>
+        <p class="form-para-1">Our team will get back to you shortly!</p>
+      </div>
+      <p class="form-para-2">Stay Tuned</p>
+    </div>
+  `;
 
-    // Add any additional logic you need here
+  // Add any additional logic you need here
 
-    document.querySelector(".form").classList.add("fade1");
-    document.querySelector(".form").classList.add("fadeOff");
-    // document.querySelector("contact-us-form").style.display = "None"
+  document.querySelector(".form").classList.add("fade1");
+  document.querySelector(".form").classList.add("fadeOff");
+  // document.querySelector("contact-us-form").style.display = "None"
 
-    setInterval(() => {
-      setShowForm(false); // Hide the form after 4 seconds
-    }, 4000);
-  };
+  setInterval(() => {
+    setShowForm(false); // Hide the form after 4 seconds
+  }, 4000);
+};
+
 
   return (
     <div className="footer box">
@@ -83,7 +105,7 @@ function Footer() {
           <h2>
             <abbr title="Connect With Us">Connect With Us</abbr>
           </h2>
-          <div className="contact-us-form" onClick={handleContactUsClick}>Contact Us</div>
+          <div className="contact-us-form" onClick={handleContactUsClick}>Connect Now</div>
         </div>
 
         {/* Contact Us */}
@@ -165,7 +187,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Download Section */}
       <div className="download">
         {/* <div className="appstore">
           <abbr title="app-store">
@@ -177,7 +198,9 @@ function Footer() {
             <img loading="lazy" src="images/Footer-images/play-store.webp" alt="Play Store" />
           </abbr>
         </div> */}
-          
+          {/* <h2>
+              <abbr title="See Our Handbook"><a href="https://heyzine.com/flip-book/c538e2deab.html" className='handbook'>See Our Handbook</a></abbr>
+            </h2> */}
       </div>
 
       {/* Copyright */}
@@ -191,25 +214,29 @@ function Footer() {
 
       <div className="form" style={{ display: showForm ? 'block' : 'none' }} data-animation="fade">
       <div class="form-close-btn">
-      <i class="fa-solid fa-xmark" onClick={hideForm}></i>
+      <i class="fa-solid fa-xmark" onClick={()=>hideForm()}></i>
     </div>
-        <h1 className='form-title'>Query Form</h1>
+        <h1>Subscribe Us</h1>
         <div className="form-item">
+          <h3 className='form-title'>Join us to get daily updates</h3>
           <input type="text" placeholder="Enter Name" className="form-input" />
-          <input type="text" placeholder="Enter Email-id/Phone No" className="form-input" />
-          <select name="Select" className="form-dropdown">
-            <option value="none" selected disabled hidden>Select</option>
-            <option value="ambulance-services">Ambulance Services</option>
-            <option value="data-security">Data Security</option>
-            <option value="address-updates">Address Updates</option>
-            <option value="know-more">Know More</option>
-            <option value="others">Others</option>
-          </select>
-          <input type="text" placeholder="Description" className="form-input" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+            title="Please enter a valid email address"
+            className="form-input"
+          />
           <button className="submit" onClick={handleSubmit}>Submit</button>
         </div>
       </div>
-    </div>
+      </div>
+    
   );
 }
 

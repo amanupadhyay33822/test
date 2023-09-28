@@ -299,7 +299,7 @@ a {
     margin-right: 0px;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .form {
         width: 30vw;
         height: 36vw;
@@ -331,6 +331,15 @@ a {
         height: auto;
         width: 40px;
     }
+    .form h1 {
+        font-size: 3vw;
+    }
+
+    .form-title {
+        margin-bottom: 2vw;
+        font-size: 2vw;
+        text-align: center;
+    }
 }
 
 /* 
@@ -338,7 +347,7 @@ a {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .form {
         width: 30vw;
         height: 38vw;
@@ -356,7 +365,7 @@ a {
         margin-top: 1.5vw;
     }
     .form-close-btn {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     .download .appstore img {
         width: 15vw;
@@ -365,6 +374,15 @@ a {
     .download .playstore img {
         width: 15vw;
         height: 5vw;
+    }
+    .form h1 {
+        font-size: 2.5vw;
+    }
+
+    .form-title {
+        margin-bottom: 3.5vw;
+        font-size: 2vw;
+        text-align: center;
     }
 }
 
@@ -377,9 +395,13 @@ a {
         height: 38vw;
         bottom: 3%;
     }
-
+    .form h1 {
+        font-size: 3vw;
+    }
     .form-title {
-        margin-bottom: 3.5vw;
+        margin-bottom: 3vw;
+        font-size: 2vw;
+        text-align: center;
     }
 
     .form-para-2 {
@@ -396,7 +418,7 @@ a {
     }
 
     .form-close-btn {
-        font-size: 0.6rem;
+        font-size: 01.3rem;
     }
 
     .download .appstore img {
@@ -420,9 +442,14 @@ a {
         height: 38vw;
         bottom: 1%;
     }
+    .form h1 {
+        font-size: 3vw;
+    }
 
     .form-title {
-        margin-bottom: 4vw;
+        margin-bottom: 3.5vw;
+        font-size: 2vw;
+        text-align: center;
     }
     .submit {
         margin-top: 1vw;
@@ -442,7 +469,7 @@ a {
     }
 
     .form-close-btn {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
     }
     .form {
         bottom: 7.5%;

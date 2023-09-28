@@ -213,51 +213,35 @@ const Home = () =>{
       <div className="leftnote">
         <div className="card">
           <div className="front">
-            <img className="director" src={user} alt="yash kumar goel" />
+            <img className="director" src={user} alt="Dr. Rahat Ullah Khan" />
           </div>
           <div className="back">
             <img src={back} alt="" className="director-back" />
             
             <abbr title="instagram" className="first-icon">
             <a href="https://www.instagram.com/official.ambuvians/" target="_blank">
-              <img style={{
-                height:'40px',
-                width:'35px',
-                marginLeft:'8px'
-              }} loading="lazy" src={instagram} alt="Insta" />
+              <img className="sir-social" loading="lazy" src={instagram} alt="Insta" />
             </a>
           </abbr>
 
           {/* WhatsApp */}
           <abbr title="whatsapp" className="second-icon">
             <a href="https://wa.me/+7505853812" target="_blank">
-              <img style={{
-                height:'40px',
-                width:'35px',
-                marginLeft:'8px'
-              }} loading="lazy" src={whatsapp} alt="wapp" />
+              <img className="sir-social" loading="lazy" src={whatsapp} alt="wapp" />
             </a>
           </abbr>
 
           {/* Twitter */}
           <abbr title="twitter" className="third-icon">
             <a href="/">
-              <img style={{
-                height:'40px',
-                width:'35px',
-                marginLeft:'8px'
-              }} loading="lazy" src={twitter} alt="ssss" />
+              <img className="sir-social" loading="lazy" src={twitter} alt="ssss" />
             </a>
           </abbr>
 
           {/* LinkedIn */}
           <abbr title="linkedin" className="fourth-icon">
             <a href="https://www.linkedin.com/company/ambuvians-healthcare-pvt-ltd/?viewAsMember=true" target="_blank">
-              <img style={{
-                height:'40px',
-                width:'35px',
-                marginLeft:'8px'
-              }} loading="lazy" src={linkedin} alt="ssss" />
+              <img className="sir-social" loading="lazy" src={linkedin} alt="ssss" />
             </a>
           </abbr>
           </div>

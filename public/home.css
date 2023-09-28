@@ -641,6 +641,7 @@ nav {
     width: 100%;
     position: absolute;
     backface-visibility: hidden;
+    text-align: center;
 }
 .front {
     background-image: url(/1684910183245.jpeg);
@@ -652,7 +653,6 @@ nav {
 }
 .back {
     display: flex;
-    background-color: #ddd;
     transform: rotateY(180deg);
     justify-content: center;
     align-items: center;
