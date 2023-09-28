@@ -137,10 +137,11 @@ const Home = () =>{
         <img style={{
             borderRadius:'15px 0 0 0'
           }} id="four" src={know_more_bottom_right} alt=""/>
-        <Link to="/services">
+        
+      </div>
+      <Link to="/services">
         <button id="more">Know more</button>
         </Link>
-      </div>
     </div> 
 {/* <!-- Why choose us section --> */}
     <motion.div variants={fadeIn('up',0.3) } 

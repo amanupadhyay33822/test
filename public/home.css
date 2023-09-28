@@ -313,8 +313,14 @@ nav {
     transform: rotateY(180deg);
     height: 100%;
     width: 80%;
+    padding: 0 1vw;
     border-radius: 10px;
     position: absolute;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .section:hover > .sectioncard {
     transform: rotateY(180deg);
@@ -374,9 +380,6 @@ nav {
     transform: scale(1.1) translateY(-1rem);
 }
 #more {
-    position: absolute;
-    margin-top: 70%;
-    margin-left: 73%;
     padding: 2px;
     width: 20%;
     height: 9%;
@@ -396,6 +399,7 @@ nav {
 }
 /* Why choose us section */
 .choose {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -550,6 +554,7 @@ nav {
     align-self: center;
     width: 75vw;
     height: auto;
+    margin-left: 12vw;
 }
 .news2 img {
     border-top-right-radius: 4rem;
@@ -922,8 +927,6 @@ nav {
     }
     #more {
         font-size: 1rem;
-        margin-top: 73%;
-        margin-left: 80%;
     }
     #one,
     #four {
