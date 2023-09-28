@@ -64,13 +64,13 @@ const Navbar = () => {
                         }}
                     >
                         <div className="right-header-element language">
-                            <select name="language" id="language">
+                            {/* <select name="language" id="language">
                                 <option value="default-language" selected disabled hidden>
                                     Language
                                 </option>
                                 <option value="english">English</option>
                                 <option value="hindi">Hindi</option>
-                            </select>
+                            </select> */}
                         </div>
                         <div className="right-header-element">
                             <abbr title="Pic">

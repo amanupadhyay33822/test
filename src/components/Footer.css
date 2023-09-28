@@ -75,7 +75,7 @@ h2 {
 
 ul,
 .footer a {
-    font-size: 1.2vw;
+    font-size: 1.25vw;
 }
 
 .footer-options {
@@ -98,6 +98,11 @@ ul,
     margin-top: 1.5vw;
     border-radius: 1.5vw;
     font-size: 1.25vw;
+}
+
+.contact-us-form:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
 }
 .form-close-btn {
     position: absolute;
@@ -250,7 +255,7 @@ figure {
 }
 /* adding hover and animations in footer */
 .footer a:hover {
-    font-size: 125%;
+    transform: scale(1.1);
 }
 
 a {

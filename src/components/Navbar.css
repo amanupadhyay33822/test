@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     transition: 0.3s;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
 }
 
 #logo img {
@@ -50,6 +50,7 @@ header {
     font-size: 1.4vw;
     font-weight: bold;
     gap: 2.5vw;
+    margin-right: 4vw;
     font-family: "Kaisei Decol", Calibri, serif;
 }
 

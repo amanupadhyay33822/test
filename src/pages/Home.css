@@ -89,11 +89,6 @@ a {
         height: 100vh;
         margin-left: 20vw;
     }
-    .left {
-        position: relative;
-        margin-top: -50vh;
-        margin-bottom: 10vh;
-    }
 
     .text-area {
         display: flex;
@@ -132,25 +127,13 @@ input[type="number"] {
 
 /* for mobile */
 
+.right {
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
 @media only screen and (max-width: 600px) {
     /* connect from us section */
-    .right {
-        display: flex;
-        position: relative;
-        justify-content: end;
-        margin-left: 50vw;
-        height: 50vh;
-        width: 50vw;
-    }
-    .am {
-        width: 50vw;
-        margin-top: 10vh;
-    }
-    .left {
-        position: relative;
-        margin-top: -50vh;
-        margin-bottom: 10vh;
-    }
 
     .connect p {
         color: white;
@@ -184,23 +167,6 @@ input[type="number"] {
 /* for desktop */
 
 @media (min-width: 601px) {
-    .right {
-        display: flex;
-        position: relative;
-        margin-left: 50vw;
-        width: 50vw;
-        height: 100vh;
-    }
-    .am {
-        width: 40vw;
-        margin-top: 10vh;
-    }
-    .left {
-        position: relative;
-        margin-top: -110vh;
-        margin-bottom: 30vh;
-    }
-
     #more {
         height: 40px;
         width: 100px;
@@ -255,12 +221,40 @@ input[type="number"] {
         padding: 0 1vw;
         font-size: 0.9vw;
     }
+    .right {
+        margin-left: 50vw;
+        width: 50vw;
+        height: 90vw;
+    }
+    .am {
+        width: 50vw;
+        margin-top: 5vw;
+    }
+    .left {
+        position: relative;
+        margin-top: -80vw;
+        margin-bottom: 55vw;
+    }
 }
 
 @media (min-width: 1280px) and (max-width: 1880px) {
     .sectionback {
         padding: 0 1vw;
         font-size: 1.2vw;
+    }
+    .right {
+        margin-left: 50vw;
+        width: 50vw;
+        height: 80vw;
+    }
+    .am {
+        width: 50vw;
+        margin-top: 15vw;
+    }
+    .left {
+        position: relative;
+        margin-top: -80vw;
+        margin-bottom: 35vw;
     }
 }
 
@@ -274,6 +268,20 @@ input[type="number"] {
         padding: 0 1vw;
         font-size: 1.6vw;
     }
+    .right {
+        margin-left: 50vw;
+        width: 50vw;
+        height: 80vw;
+    }
+    .am {
+        width: 40vw;
+        margin-top: 10vw;
+    }
+    .left {
+        position: relative;
+        margin-top: -80vw;
+        margin-bottom: 35vw;
+    }
 }
 
 /* 
@@ -285,6 +293,20 @@ input[type="number"] {
     .sectionback {
         padding: 0 0.5vw;
         font-size: 1.3vw;
+    }
+    .right {
+        margin-left: 50vw;
+        width: 50vw;
+        height: 70vw;
+    }
+    .am {
+        width: 40vw;
+        margin-top: 10vw;
+    }
+    .left {
+        position: relative;
+        margin-top: -80vw;
+        margin-bottom: 35vw;
     }
 }
 
@@ -303,6 +325,20 @@ input[type="number"] {
         padding: 0 0.5vw;
         font-size: 1vw;
     }
+    .right {
+        margin-left: 50vw;
+        width: 50vw;
+        height: 70vw;
+    }
+    .am {
+        width: 50vw;
+        margin-top: 5vw;
+    }
+    .left {
+        position: relative;
+        margin-top: -80vw;
+        margin-bottom: 35vw;
+    }
 }
 
 /* 
@@ -314,5 +350,19 @@ input[type="number"] {
     .sectionback {
         padding: 0 0.5vw;
         font-size: 1.25vw;
+    }
+    .right {
+        margin-left: 50vw;
+        width: 50vw;
+        height: 70vw;
+    }
+    .am {
+        width: 50vw;
+        margin-top: 10vh;
+    }
+    .left {
+        position: relative;
+        margin-top: -80vw;
+        margin-bottom: 20vw;
     }
 }

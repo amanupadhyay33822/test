@@ -596,7 +596,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    text-align: center;
 }
 .partners img {
     height: auto;
@@ -897,7 +897,6 @@ nav {
         padding: 1rem;
         max-width: 50%;
         height: auto;
-        justify-content: center;
     }
     .vision {
         height: max-content;
