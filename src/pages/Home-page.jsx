@@ -131,18 +131,10 @@ const Home = () =>{
 {/* <!-- know more section --> */}
     <div className="knowmore">
       <div className="know">
-        <motion.img variants={fadeIn('right',0.3)} 
-          initial="hidden"
-          whileInView={'show'} id="one" src={know_more_top_left} alt=""/>
-        <motion.img variants={fadeIn('left',0.3)} 
-          initial="hidden"
-          whileInView={'show'}  id="two" src={know_more_top_right} alt=""/>
-        <motion.img variants={fadeIn('right',0.3)} 
-          initial="hidden"
-          whileInView={'show'} id="three" src={know_more_bottom_left} alt=""/>
-        <motion.img variants={fadeIn('left',0.3)} 
-          initial="hidden"
-          whileInView={'show'} style={{
+        <img  id="one" src={know_more_top_left} alt=""/>
+        <img  id="two" src={know_more_top_right} alt=""/>
+        <img  id="three" src={know_more_bottom_left} alt=""/>
+        <img style={{
             borderRadius:'15px 0 0 0'
           }} id="four" src={know_more_bottom_right} alt=""/>
         <Link to="/services">
@@ -190,14 +182,17 @@ const Home = () =>{
 {/* <!-- coming soon section ends here --> */}
 {/* <!-- Why we come section --> */}
 
-    <motion.div variants={fadeIn('left',0.3)} 
+    {/* <motion.div variants={fadeIn('left',0.3)} 
           initial="hidden"
           whileInView={'show'} className="come">
+    </motion.div> */}
+    <div class="come" style={{opacity: '1', transform: 'none'}}>
       <a href="/inactive url">Why We Come</a>
-    </motion.div>
-    <motion.div variants={fadeIn('left',0.3)} 
+    </div>
+      
+    {/* <motion.div variants={fadeIn('left',0.3)} 
           initial="hidden"
-          whileInView={'show'} className="whywecome">
+          whileInView={'show'} className="whywecome"> */}
       <div className="news1">
         <img src={why_we_come_upper_left} alt=""/>
         <img src={why_we_come_upper_mid} alt=""/>
@@ -206,7 +201,7 @@ const Home = () =>{
       <div className="news2">
         <img src={why_we_come_lower} alt=""/>
       </div>
-    </motion.div>
+    {/* </motion.div> */}
 {/* <!-- why we come section ends here --> */}
 {/* <!-- director's note --> */}
 <Parallax strength={400}>
@@ -291,29 +286,7 @@ const Home = () =>{
     </div>
     {/* <!-- our partners section ends here --> */}
     {/* <!-- Subscribe to our mail --> */}
-    <Parallax strength={600} >
-    <div className="submail">
-      <a href="/inactive url" id="subscribe">SUBSCRIBE TO OUR MAIL</a>
-      <a href="/inactive url" id="tips">Get a free subscription to our health and fitness tip and stay tuned to our latest offers</a>
-      <div className="emails"> 
-        <input required type="email" placeholder="Email" id="inputmail"/>
-        <button  onClick={()=>{
-          alert("We are connecting With you shortly")
-        }} id="arrow"><i class='fa fa-arrow-right fa-2x'></i></button>
-      </div>
-      <div className="or">
-        <hr id="hrone"/>
-        <h2 id="h2">OR</h2>
-        <hr id="hrone"/>
-      </div>
-      <div className="numbers">
-        <input required type="tel" placeholder="Phone Number" id="inputmail"/>
-        <button onClick={()=>{
-          alert("We are connecting With you shortly")
-        }} id="arrow"><i class='fa fa-arrow-right fa-2x'></i></button>
-      </div>
-    </div>
-    </Parallax>
+    
 {/* <!-- mail section ends here --> */}
 {/* <!-- Footer Section --> */}
 

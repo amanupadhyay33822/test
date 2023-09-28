@@ -546,6 +546,7 @@ nav {
     margin-top: 2dvh;
     display: flex;
     justify-content: center;
+    align-items: center;
     align-self: center;
     width: 75vw;
     height: auto;
@@ -589,7 +590,7 @@ nav {
 .partners {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
 }
 .partners img {
@@ -886,9 +887,6 @@ nav {
     .come a,
     .ourPartners a {
         font-size: 2rem;
-    }
-    .partners {
-        flex-direction: column;
     }
     .partners img {
         padding: 1rem;
