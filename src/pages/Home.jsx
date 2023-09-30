@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from '../components/Navbar'
 import cover from "../assets/home_assets/HOME PAGE COVER IMAGE.png";
 import background from "../assets/home_assets/Rectangle 632.png";
 import whatsapp from "../assets/home_assets/whatsapp.jpg";
@@ -31,6 +30,7 @@ import user from '../assets/home_assets/WhatsApp Image 2023-09-22 at 16.00.55.jp
 import instagram from '../assets/home_assets/instagram.png'
 import linkedin from '../assets/home_assets/linkedin.png'
 import twitter from '../assets/home_assets/twitter.png'
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
@@ -139,9 +139,7 @@ const Home = () =>{
           }} id="four" src={know_more_bottom_right} alt=""/>
         
       </div>
-      <Link to="/services">
-        <button id="more">Know more</button>
-        </Link>
+      
     </div> 
 {/* <!-- Why choose us section --> */}
     <motion.div variants={fadeIn('up',0.3) } 
@@ -187,7 +185,7 @@ const Home = () =>{
           initial="hidden"
           whileInView={'show'} className="come">
     </motion.div> */}
-    <div class="come" style={{opacity: '1', transform: 'none'}}>
+    <div className="come" style={{opacity: '1', transform: 'none'}}>
       <a href="/inactive url">Why We Come</a>
     </div>
       

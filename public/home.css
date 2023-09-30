@@ -230,7 +230,7 @@ nav {
 /* reach-out section ends */
 /* our vision section */
 .vision {
-    margin-top: 20px;
+    margin-top: 2vw;
     background-image: url("../src/assets/home_assets/our_vision.png");
     background-repeat: no-repeat;
     background-size: cover;
