@@ -46,7 +46,7 @@ const Home = () =>{
     return(
         <>
         <Navbar/>
-        <section style={{marginTop:'9vh'}}>
+        <section style={{marginTop:'7.5vh'}}>
     
 {/* <!-- nav bar ends here --> */}
 {/* <!-- first section --> */}
