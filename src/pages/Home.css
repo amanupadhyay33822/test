@@ -85,7 +85,7 @@ a {
         top: 0;
     }
     .First-section {
-        margin-bottom: 2vw;
+        margin-bottom: 5vw;
         display: flex;
         flex-direction: column;
     }
@@ -190,6 +190,10 @@ input[type="number"] {
         width: 50vw;
         height: 90vw;
     }
+    .First-section {
+        margin-bottom: 2vw;
+        
+    }
     .am {
         width: 50vw;
         margin-top: 5vw;
@@ -210,6 +214,10 @@ input[type="number"] {
         margin-left: 50vw;
         width: 50vw;
         height: 80vw;
+    }
+    .First-section {
+        margin-bottom: 3vw;
+        
     }
     .am {
         width: 50vw;
@@ -245,6 +253,10 @@ input[type="number"] {
         position: relative;
         margin-top: -80vw;
         margin-bottom: 35vw;
+    }
+    .First-section {
+        margin-bottom: 3vw;
+        
     }
     .director {
         height: 25vw;
@@ -283,6 +295,10 @@ input[type="number"] {
         margin-left: 50vw;
         width: 50vw;
         height: 70vw;
+    }
+    .First-section {
+        margin-bottom: 4vw;
+        
     }
     .am {
         width: 40vw;
@@ -345,6 +361,10 @@ input[type="number"] {
         margin-top: -80vw;
         margin-bottom: 35vw;
     }
+    .First-section {
+        margin-bottom: 5vw;
+        
+    }
 
     .director {
         height: 25vw;
@@ -392,6 +412,10 @@ input[type="number"] {
         position: relative;
         margin-top: -80vw;
         margin-bottom: 20vw;
+    }
+    .First-section {
+        margin-bottom: 6vw;
+        
     }
 
     .director {
