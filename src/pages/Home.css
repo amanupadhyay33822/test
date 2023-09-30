@@ -73,7 +73,7 @@ a {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-@media (min-device-width: 320px) and (max-device-width: 479) {
+@media (min-device-width: 320px) and (max-device-width: 479px) {
     .right {
         height: 100vh;
         margin-left: 20vw;
@@ -381,7 +381,7 @@ input[type="number"] {
     .right {
         margin-left: 50vw;
         width: 50vw;
-        height: 70vw;
+        height: 80vw;
     }
     .am {
         width: 50vw;
