@@ -40,17 +40,17 @@ const handleSubmit = (e) => {
   // You may clear input values, display a thank you message, etc.
   document.querySelectorAll(".form-input").forEach((input) => (input.value = ""));
   document.querySelector(".form").innerHTML = `
-    <div class="form-item" data-animation="fadeOff">
+    <div className="form-item" data-animation="fadeOff">
       <div>
-        <figure><img loading="lazy" src="/images/Footer-images/ambu logo.webp" alt="ambu logo" class="form-logo"></figure>
+        <figure><img loading="lazy" src="/images/Footer-images/ambu logo.webp" alt="ambu logo" className="form-logo"></figure>
       </div>
       <div>
         <h1>Thank You</h1>
       </div>
       <div>
-        <p class="form-para-1">Our team will get back to you shortly!</p>
+        <p className="form-para-1">Our team will get back to you shortly!</p>
       </div>
-      <p class="form-para-2">Stay Tuned</p>
+      <p className="form-para-2">Stay Tuned</p>
     </div>
   `;
 
@@ -213,8 +213,8 @@ const handleSubmit = (e) => {
       </div>
 
       <div className="form" style={{ display: showForm ? 'block' : 'none' }} data-animation="fade">
-      <div class="form-close-btn">
-      <i class="fa-solid fa-xmark" onClick={()=>hideForm()}></i>
+      <div className="form-close-btn">
+      <i className="fa-solid fa-xmark" onClick={()=>hideForm()}></i>
     </div>
         <h1>Subscribe Us</h1>
         <div className="form-item">

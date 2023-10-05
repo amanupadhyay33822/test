@@ -12,25 +12,16 @@ const _items = [
         player: {
             title: 'Dr. Rahat Ullah Khan',
             desc: 'Former Director',
-            image: './about-page-images/Rahat.jpeg',
+            image: './images/About-images/Rahat.jpeg',
             linkedin:'https://www.linkedin.com/in/rahatullahkhan'
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
+    
         },
     },
     {
         player: {
             title: "Yash Kumar Goel",
             desc: "Founder & CEO (ED)",
-            image: './about-page-images/yash1.jpg',
+            image: './images/About-images/yash1.jpg',
             linkedin:'https://www.linkedin.com/in/yash-kumar-goel-b60ba2221',
 
 
@@ -40,7 +31,7 @@ const _items = [
         player: {
             title: 'Suryansh Gupta',
             desc: 'CPO ( Chief Product  Officer)',
-            image: './about-page-images/suryansh.png',
+            image: './images/About-images/suryansh.png',
             linkedin:'https://www.linkedin.com/in/suryansh-gupta',
 
         },
@@ -50,7 +41,7 @@ const _items = [
         player: {
             title: 'Vidushi Singhal',
             desc: 'CPO ( Chief Product Officer )',
-            image: './about-page-images/Vidushi.png',
+            image: './images/About-images/Vidushi.png',
             linkedin:'https://www.linkedin.com/in/vidushi-singhal-ba3980226',
 
         },
@@ -59,7 +50,7 @@ const _items = [
         player: {
             title: 'Gaurav Payal',
             desc: 'CMO ( Chief Marketing Officer)',
-            image: '/about-page-images/Gaurav.jpeg',
+            image: '/images/About-images/Gaurav.jpeg',
             linkedin:'https://www.linkedin.com/in/2oo3-gaurav',
         },
     },
@@ -128,7 +119,7 @@ const CarouselSlideItem = ({ pos, idx, activeIdx }) => {
                 <h4>{item.player.title}</h4>
                 <p>{item.player.desc}</p>
                 <a className="linkedin-link" href={item.player.linkedin} target="_blank" rel="noopener noreferrer">
-                        <img src="./about-page-images/linkedin.webp" alt="LinkedIn" />
+                        <img src="./images/About-images/linkedin.webp" alt="LinkedIn" />
                     </a>
             </div>
         </li>

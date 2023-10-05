@@ -80,7 +80,7 @@ const About = () => {
             marginTop:'7.5vh'
         }}>
       {/* Home section start */}
-      <section className="home company" id="home" style={{ backgroundImage: 'url(./about-page-images/company-image.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+      <section className="home company" id="home" style={{ backgroundImage: 'url(./images/About-images/company-image.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
         <h1 style={{
           top:"1"
         }}>AMBUvians</h1>
@@ -92,7 +92,7 @@ const About = () => {
       <p className="main_heading"></p>
 
       {/* About Us */}
-      <div className="about" style={{ backgroundImage: 'url(./about-page-images/about-us.png)' }}>
+      <div className="about" style={{ backgroundImage: 'url(./images/About-images/about-us.png)' }}>
         <div className="about-text">
           <h1>About Us</h1>
           <p >
@@ -100,9 +100,9 @@ const About = () => {
           </p>
         </div>
         <picture>
-          <source srcSet="./assets/about-page-images/about-us.webp" type="image/webp" />
-          <source srcSet="./assets/about-page-images/about-us.jpg" type="image/jpeg" />
-          <img src="./assets/about-page-images/about-us.jpg" alt="About Us" />
+          <source srcSet="./assets/images/About-images/about-us.webp" type="image/webp" />
+          <source srcSet="./assets/images/About-images/about-us.jpg" type="image/jpeg" />
+          <img src="./assets/images/About-images/about-us.jpg" alt="About Us" />
         </picture>
       </div>
 
@@ -112,7 +112,7 @@ const About = () => {
       </div>
 
       {/* About We */}
-      <div className="about-we"  style={{ backgroundImage: 'url(./about-page-images/about-we.jpg)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+      <div className="about-we"  style={{ backgroundImage: 'url(./images/About-images/about-we.jpg)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
         <div className="about-we-text">
           <h2>Who We Are</h2>
           <p className="who-we-are-text"></p>
@@ -121,7 +121,7 @@ const About = () => {
 
       {/* Why Choose Us Section */}
       <div className="choose-us" style={{
-  backgroundImage: 'url(./about-page-images/choose-us-image.png)',
+  backgroundImage: 'url(./images/About-images/choose-us-image.png)',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
   backgroundPosition: 'center'
@@ -130,19 +130,19 @@ const About = () => {
           <h2>Why Choose Us?</h2>
           <div className="choose-img">
             <div className="img-one">
-              <img className="scale" src="./about-page-images/img-one.webp" alt="first image of choose image that contains patient first policy" />
+              <img className="scale" src="./images/About-images/img-one.webp" alt="first image of choose image that contains patient first policy" />
               <p>Patient first policy</p>
             </div>
             <div className="img-two">
-              <img className="scale" src="./about-page-images/img-two.webp" alt="ksecond image of choose us image that contains Emergency assistance time of 15 minutes or less" />
+              <img className="scale" src="./images/About-images/img-two.webp" alt="ksecond image of choose us image that contains Emergency assistance time of 15 minutes or less" />
               <p>Emergency assistance time of 15 minutes or less</p>
             </div>
             <div className="img-three">
-              <img className="scale" src="./about-page-images/img-three.webp" alt="third image of the choose us image that contains 24/7 support" />
+              <img className="scale" src="./images/About-images/img-three.webp" alt="third image of the choose us image that contains 24/7 support" />
               <p>24/7 Support</p>
             </div>
             <div className="img-four">
-              <img className="scale" src="./about-page-images/img-four.webp" alt="fourth image of the choose us image that contains customize and Reliable" />
+              <img className="scale" src="./images/About-images/img-four.webp" alt="fourth image of the choose us image that contains customize and Reliable" />
               <p>Customize and Reliable</p>
             </div>
           </div>
