@@ -13,7 +13,7 @@
     text-decoration: none;
     height: fit-content;
 
-    font-family: "Kadwa", serif;
+    font-family: "Inknut Antiqua", serif;
     background: -webkit-linear-gradient(0deg, #48abe0 0%, #00478f 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -25,7 +25,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-family: "Jaldi", sans-serif;
+    font-family: "Inknut Antiqua", serif;
     font-weight: 500;
     font-size: 3rem;
     text-decoration: -webkit-linear-gradient(0deg, #48abe0 0%, #00478f 100%);
@@ -170,5 +170,6 @@
     }
     .right_txt {
         flex-direction: row;
+        font-size: 5vw;
     }
 }

@@ -25,7 +25,7 @@
   object-fit: cover;
 }
 #our-vision {
-  font-family: "Inter", sans-serif;
+  font-family: "Inknut Antiqua", serif;
   font-size: 65px;
   font-weight: bold;
   color: #fff;
@@ -69,6 +69,7 @@
   height: inherit;
   width: inherit;
   transform-style: preserve-3d;
+  cursor: pointer;
 }
 .sectionfront {
   display: flex;
@@ -79,7 +80,10 @@
 
 }
 .sectionback {
-  background: -webkit-linear-gradient(45deg, #653fff 0%, #00e5ff 100%);
+  /* background: -webkit-linear-gradient(45deg, #653fff 0%, #00e5ff 100%); */
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.6);
+  background-color: #417fbd42;
   transform: rotateY(180deg);
   margin-top: 1rem;
   height: 90%;
@@ -339,6 +343,9 @@
 .vision_img img {
   width: 15vw;
   height: auto;
+}
+#our-vision {
+  font-size: 5vw;
 }
 #section-upper-text {
   font-size: 1.75vw;

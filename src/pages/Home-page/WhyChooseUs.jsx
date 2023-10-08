@@ -31,7 +31,9 @@ function WhyChooseUs() {
               </abbr>
               <a href="/inactive url">Patient is our first priority</a>
             </div>
-            <div className="two">
+          </div>
+          <div className="parttwo">
+          <div className="two">
               <abbr>
                 <img src={why_choose_us_upper_right} alt="" />
               </abbr>
@@ -40,14 +42,17 @@ function WhyChooseUs() {
                 of 15 minutes or less
               </a>
             </div>
+           
           </div>
-          <div className="parttwo">
-            <div className="three">
+          <div className="partthree">
+          <div className="three">
               <abbr>
                 <img src={why_choose_us_lower_left} alt="" />
               </abbr>
               <a href="/inactive url">24/7 Support</a>
             </div>
+            </div>
+            <div className="partfour">
             <div className="four">
               <abbr>
                 <img src={why_choose_us_lower_right} alt="" />
@@ -56,8 +61,7 @@ function WhyChooseUs() {
                 Customise and Reliable <br />
                 Ambulance Service
               </a>
-            </div>
-          </div>
+            </div></div>
         </div>
       </motion.div>
       {/* <!-- Why choose us section ends here   --> */}

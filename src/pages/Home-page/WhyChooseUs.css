@@ -27,7 +27,9 @@
     width: 100vw;
 }
 .partone,
-.parttwo {
+.parttwo, 
+.partthree,
+.partfour {
     display: flex;
     justify-content: space-around;
     width: 50vw;
@@ -67,29 +69,78 @@
     -webkit-text-fill-color: transparent;
 }
 
-
-
-
-@media (min-width: 1000px) {
+@media (min-width: 3001px) {
     .choose {
-        margin-top: 45vw;
+        margin-top: 27vw;
     }
     .low a {
-        font-size: 1.5vw;
+        font-size: 1.25vw;
     }
     #why_us {
-        font-size: 5vw;
+        font-size: 4vw;
         color: #000;
     }
 
     .partone img,
-    .parttwo img {
-        width: 8vw;
+    .parttwo img,
+    .partthree img,
+    .partfour img {
+        width: 12vw;
+    }
+    .low a {
+        font-size: 1.5vw;
     }
 }
-@media (min-width: 1300px) {
+
+@media (max-width: 3000px) {
+    .choose {
+        margin-top: 27vw;
+    }
+    .low a {
+        font-size: 1.25vw;
+    }
+    #why_us {
+        font-size: 4vw;
+        color: #000;
+    }
+
+    .partone img,
+    .parttwo img,
+    .partthree img,
+    .partfour img {
+        width: 10vw;
+    }
+    .low a {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 1800px) {
     .choose {
         margin-top: 35vw;
+    }
+    .low a {
+        font-size: 1.25vw;
+    }
+    #why_us {
+        font-size: 4vw;
+        color: #000;
+    }
+
+    .partone img,
+    .parttwo img,
+    .partthree img,
+    .partfour img {
+        width: 10vw;
+    }
+    .low a {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 1300px) {
+    .choose {
+        margin-top: 40vw;
     }
     .low a {
         font-size: 1.35vw;
@@ -100,29 +151,22 @@
     }
 
     .partone img,
-    .parttwo img {
-        width: 8vw;
-    }
-}
-@media (min-width: 1800px) {
-    .choose {
-        margin-top: 27vw;
-    }
-    .low a {
-        font-size: 1.25vw;
-    }
-    #why_us {
-        font-size: 3vw;
-        color: #000;
-    }
-
-    .partone img,
-    .parttwo img {
+    .parttwo img,
+    .partthree img,
+    .partfour img {
         width: 10vw;
     }
+    .low a {
+        font-size: 1.5vw;
+    }
 }
 
+
 @media (max-width: 1000px) {
+    #why_us {
+        font-size: 5vw;
+        color: #000;
+    }
     .choose {
         margin-top: 40vw;
     }
@@ -130,15 +174,17 @@
         font-size: 1.15vw;
     }
     .partone img,
-    .parttwo img {
-        width: 5vw;
+    .parttwo img,
+    .partthree img,
+    .partfour img {
+        width: 9vw;
+    }
+    .low a {
+        font-size: 1.75vw;
     }
 }
-@media (max-width: 800px) {
-    .choose {
-        margin-top: 25vw;
-    }
-}
+
+
 
 
 
@@ -149,9 +195,12 @@
 }
 
 
-@media only screen and (max-width: 1120px) {
+@media only screen and (max-width: 800px) {
+    .choose {
+        margin-top: 25vw;
+    }
     #why_us {
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .low {
         flex-direction: column;
@@ -159,35 +208,91 @@
     .low img {
         padding: 1rem;
     }
+    .one,
+    .two,
+    .three,
+    .four {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 60vw;
+    }
 
     .partone img,
-    .parttwo img {
-        width: 14vw;
+    .parttwo img,
+    .partthree img,
+    .partfour img {
+        width: 16vw;
     }
     .partone a,
-    .parttwo a {
+    .parttwo a,
+    .partthree a,
+    .partfour a {
         font-size: 0.6rem;
     }
     .low a {
-        font-size: 1.75vw;
+        font-size: 2.5vw;
+        width: 100vw;
     }
 }
 
 @media only screen and (max-width: 650px) {
     #why_us {
-        font-size: 5vw;
+        font-size: 8vw;
         color: #000;
+    }
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 70vw;
     }
 
     .partone img,
-    .parttwo img {
+    .parttwo img,
+    .partthree img,
+    .partfour img {
         width: 20vw;
     }
     .partone a,
-    .parttwo a {
+    .parttwo a,
+    .partthree a,
+    .partfour a {
         font-size: 0.6rem;
     }
     .low a {
-        font-size: 2vw;
+        font-size: 2.8vw;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #why_us {
+        font-size: 7vw;
+        color: #000;
+    }
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 70vw;
+    }
+
+    .partone img,
+    .parttwo img,
+    .partthree img,
+    .partfour img {
+        width: 25vw;
+    }
+    .partone a,
+    .parttwo a,
+    .partthree a,
+    .partfour a {
+        font-size: 0.6rem;
+    }
+    .low a {
+        font-size: 3.5vw;
+        width: 100vw;
     }
 }
