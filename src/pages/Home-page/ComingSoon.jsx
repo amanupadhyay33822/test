@@ -11,7 +11,7 @@ function ComingSoon() {
       {/* <!-- coming soon --> */}
       <div className="coming">
         <div className="left_img">
-          <img src={coming_soon_app} alt="" />
+          <img loader="lazy" src={coming_soon_app} alt="" />
         </div>
         <TypeAnimation
           sequence={["COMING SOON ", 1500, "CHECK OUT ", 1500]}

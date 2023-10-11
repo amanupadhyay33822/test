@@ -27,7 +27,7 @@ function WhyChooseUs() {
           <div className="partone">
             <div className="one">
               <abbr>
-                <img src={why_choose_us_upper_left} alt="" />
+                <img loader="lazy" src={why_choose_us_upper_left} alt="" />
               </abbr>
               <a href="/inactive url">Patient is our first priority</a>
             </div>
@@ -35,7 +35,7 @@ function WhyChooseUs() {
           <div className="parttwo">
           <div className="two">
               <abbr>
-                <img src={why_choose_us_upper_right} alt="" />
+                <img loader="lazy" src={why_choose_us_upper_right} alt="" />
               </abbr>
               <a href="/inactive url">
                 Emergency response time <br />
@@ -47,7 +47,7 @@ function WhyChooseUs() {
           <div className="partthree">
           <div className="three">
               <abbr>
-                <img src={why_choose_us_lower_left} alt="" />
+                <img loader="lazy" src={why_choose_us_lower_left} alt="" />
               </abbr>
               <a href="/inactive url">24/7 Support</a>
             </div>
@@ -55,7 +55,7 @@ function WhyChooseUs() {
             <div className="partfour">
             <div className="four">
               <abbr>
-                <img src={why_choose_us_lower_right} alt="" />
+                <img loader="lazy" src={why_choose_us_lower_right} alt="" />
               </abbr>
               <a href="/inactive url">
                 Customise and Reliable <br />

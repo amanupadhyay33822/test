@@ -12,10 +12,10 @@ function Partners() {
       </div>
       <div className="partners">
         <a href="https://www.teific.in">
-          <img src={teific_logo} alt="" />
+          <img loader="lazy" src={teific_logo} alt="" />
         </a>
 
-        {/* <img src={carzilla_logo} alt=""/> */}
+        {/* <img loader="lazy" src={carzilla_logo} alt=""/> */}
       </div>
     </>
   );

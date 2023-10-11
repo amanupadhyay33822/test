@@ -20,8 +20,8 @@ function Title() {
           whileInView={"show"}
           className="right"
         >
-          <img className="am" src={cover} alt="ambulance" />
-          <img id="bg" src={background} alt="Background" />
+          <img loader="lazy" className="am" src={cover} alt="ambulance" />
+          <img loader="lazy" id="bg" src={background} alt="Background" />
         </motion.div>
         {/* div for left text and facts button  */}
         <motion.div

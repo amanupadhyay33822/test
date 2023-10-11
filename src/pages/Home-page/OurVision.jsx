@@ -31,7 +31,7 @@ function OurVision() {
             <div className="section">
               <div className="sectioncard">
                 <div className="sectionfront">
-                  <img src={our_vision_section1} alt="" />
+                  <img loader="lazy" src={our_vision_section1} alt="" />
                   <a href="/inactive url" id="section-upper-text">
                     INDIA's best
                   </a>
@@ -48,7 +48,7 @@ function OurVision() {
             <div className="section">
               <div className="sectioncard">
                 <div className="sectionfront">
-                  <img src={our_vision_section2} alt="" />
+                  <img loader="lazy" src={our_vision_section2} alt="" />
                   <a href="/inactive url" id="section-upper-text">
                     Saving Life
                   </a>
@@ -66,7 +66,7 @@ function OurVision() {
             <div className="section">
               <div className="sectioncard">
                 <div className="sectionfront">
-                  <img src={our_vision_section3} alt="" />
+                  <img loader="lazy" src={our_vision_section3} alt="" />
                   <a href="/inactive url" id="section-upper-text">
                     Economical and
                   </a>

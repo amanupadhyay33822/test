@@ -13,9 +13,9 @@ function KnowUs() {
       {/* <!-- know more section --> */}
       <div className="knowmore">
         <div className="know">
-          <img id="one" src={know_more_top_left} alt="" />
-          <img id="two" src={know_more_top_right} alt="" />
-          <img id="three" src={know_more_bottom_left} alt="" />
+          <img loader="lazy" id="one" src={know_more_top_left} alt="" />
+          <img loader="lazy" id="two" src={know_more_top_right} alt="" />
+          <img loader="lazy" id="three" src={know_more_bottom_left} alt="" />
           <img
             style={{
               borderRadius: "1vw",

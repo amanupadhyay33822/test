@@ -10,8 +10,13 @@ function ReachOut() {
     <>
       {/* <!-- reach-out section fixed in the bottom left corner --> */}
       <div className="whatsapp">
-        <img src={whatsapp} alt="whatsapp" />
-        <img src={call} alt="call" id="call" />
+        <a href="https://wa.me/+7505853812" target="_blank">
+          <img loader="lazy" src={whatsapp} alt="whatsapp" />
+        </a>
+        <a href="tel:+917505853812">
+          <img loader="lazy" src={call} alt="call" id="call" />
+        </a>
+        
       </div>
       {/* <!-- reach-out section ends here --> */}
     </>

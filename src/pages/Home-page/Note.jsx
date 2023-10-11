@@ -42,7 +42,7 @@ function Note() {
                 />
               </div>
               <div className="back">
-                <img src={back} alt="" className="director-back" />
+                <img loader="lazy" src={back} alt="" className="director-back" />
 
                 <abbr title="instagram" className="first-icon">
                   <a

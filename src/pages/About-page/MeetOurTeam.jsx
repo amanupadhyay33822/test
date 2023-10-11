@@ -112,14 +112,14 @@ const CarouselSlideItem = ({ pos, idx, activeIdx }) => {
     return (
         <li className={`carousel__slide-item carousel__slide-item-${idx}`} style={item.styles}>
             <div className="carousel__slide-item-img-link">
-                <img src={item.player.image} alt={item.player.title} className="team-img"/>
+                <img loader="lazy" src={item.player.image} alt={item.player.title} className="team-img"/>
 
             </div>
             <div className="carousel-slide-item__body">
                 <h4>{item.player.title}</h4>
                 <p>{item.player.desc}</p>
                 <a className="linkedin-link" href={item.player.linkedin} target="_blank" rel="noopener noreferrer">
-                        <img src="./images/About-images/linkedin.webp" alt="LinkedIn" />
+                        <img loader="lazy" src="./images/About-images/linkedin.webp" alt="LinkedIn" />
                     </a>
             </div>
         </li>

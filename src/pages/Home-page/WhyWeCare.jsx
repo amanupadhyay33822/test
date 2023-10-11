@@ -1,38 +1,42 @@
-import React from "react";
-
-import "./WhyWeCare.css"
-
-import why_we_come_upper_left from "../../assets/Home-images/1.jpeg";
-import why_we_come_upper_mid from "../../assets/Home-images/2.jpeg";
-import why_we_come_upper_right from "../../assets/Home-images/3.png";
-import why_we_come_lower from "../../assets/Home-images/4.jpeg";
+import React, { useState, useEffect } from "react";
+import "./WhyWeCare.css";
 
 function WhyWeCare() {
+  const [imageIndex, setImageIndex] = useState(1);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsFading(true);
+      setTimeout(() => {
+        setImageIndex((prevIndex) => (prevIndex % 7) + 1);
+        setIsFading(false);
+      }, 500); 
+    }, 5000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  const imageSrc1 = `./images/Home-images/innerConditionImage/${imageIndex}.webp`;
+  const imageSrc2 = `./images/Home-images/outerConditionImage/${imageIndex}.webp`;
+  const imageSrc3 = `./images/Home-images/hospitalConditionImage/${imageIndex}.webp`;
+
   return (
     <>
-      {/* <!-- Why we come section --> */}
-
-      {/* <motion.div variants={fadeIn('left',0.3)} 
-          initial="hidden"
-          whileInView={'show'} className="come">
-          </motion.div> */}
       <div className="come" style={{ opacity: "1", transform: "none" }}>
         <a href="/inactive url">Why We Come</a>
       </div>
 
-      {/* <motion.div variants={fadeIn('left',0.3)} 
-          initial="hidden"
-          whileInView={'show'} className="whywecome"> */}
-      <div className="news1">
-        <img src={why_we_come_upper_left} alt="" />
-        <img src={why_we_come_upper_mid} alt="" />
-        <img src={why_we_come_upper_right} alt="" />
+      <div className={`news1`}>
+      <img loader="lazy" src={imageSrc1} alt="" className={`${isFading ? "fade" : ""}`}/>
+        <img loader="lazy" src="./images/Home-images/2.jpeg" alt="" />
+        <img loader="lazy" src={imageSrc2} alt="" className={`${isFading ? "fade" : ""}`}/>
       </div>
       <div className="news2">
-        <img src={why_we_come_lower} alt="" />
+        <img loader="lazy" src={imageSrc3} alt="" className={`${isFading ? "fade" : ""}`} />
       </div>
-      {/* </motion.div> */}
-      {/* <!-- why we come section ends here --> */}
     </>
   );
 }

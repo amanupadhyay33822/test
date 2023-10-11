@@ -83,3 +83,12 @@
         border-bottom-left-radius: 2rem;
     }
 }
+.news2 ,
+.news1 {
+    transition: opacity 0.25s; /* Adjust the duration for the fade effect */
+  }
+  
+  .fade {
+    opacity: 0;
+    transition: opacity 0.25s; /* Should match the transition duration in .news1 */
+  }
