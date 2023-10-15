@@ -1,6 +1,9 @@
 /* types of ambulance header style */
+
+
 .ambulance-types h1 {
-    font-family: Kadwa, Calibri, serif;
+   font-family: "Inknut Antiqua", serif;
+
 
     color: #000;
     font-size: 6vw;
@@ -42,7 +45,7 @@
 }
 
 .ambulance-img-figcaption {
-    font-family: Kadwa, Calibri, serif;
+  font-family: "Inknut Antiqua", serif;
 }
 
 .bgc {
@@ -64,19 +67,35 @@
 }
 
 /* selected ambulance style */
+.selected-ambulance-outer-img {
+  animation: fade-in 1s ease-in forwards;
+  -webkit-animation: fade-in 1s ease-in forwards; /* for older versions of WebKit browsers */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* selected ambulance inner and outer image style */
 .selected-ambulance-outer-img,
 .selected-ambulance-inner-img {
     width: 25vw;
-}
 
+}
+.selected-ambulance-outer-img:hover {
+    opacity: 0.7; /* Adjust the opacity to control the fade effect on hover */
+}
 /* selected ambulance detail style */
 .selected-ambulance-detail {
     color: #fff;
     font-size: 2vw;
     line-height: 3vw;
-    font-family: "Kaisei Decol", Calibri, serif;
+   font-family: "Inknut Antiqua", serif;
 }
 
 /* selected ambulance feature div style */
@@ -150,17 +169,17 @@
 }
 
 .flip-card-front p {
-    font-size: 1.5vw;
-    font-family: "Kaisei Decol", Calibri, serif;
+    font-size: 1.2vw;
+  font-family: "Inknut Antiqua", serif;
 }
 
 .flip-card-back h3 {
     font-size: 1.8vw;
-    font-family: Kadwa, Calibri, serif;
+ font-family: "Inknut Antiqua", serif;
 }
 .flip-card-back p {
     font-size: 1.5vw;
-    font-family: "Kaisei Decol", Calibri, serif;
+ font-family: "Inknut Antiqua", serif;
 }
 
 .flip-card-front img {
@@ -175,7 +194,7 @@
 
 @media (min-width: 1441px) {
     .flip-card-front p {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     .flip-card-back h3 {
@@ -199,7 +218,7 @@
     }
 
     .flip-card-front p {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     .flip-card-back h3 {
@@ -214,7 +233,7 @@
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .flip-card-front p {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     .flip-card-back h3 {
@@ -234,7 +253,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .flip-card-front p {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     .flip-card-back h3 {
@@ -249,7 +268,7 @@
 
 @media (min-width: 425px) and (max-width: 767px) {
     .flip-card-front p {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     .flip-card-back h3 {
@@ -269,7 +288,7 @@
 
 @media (min-width: 320px) and (max-width: 425px) {
     .flip-card-front p {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     .flip-card-back h3 {
@@ -330,3 +349,44 @@
         font-size: 1.5vw;
     }
 }
+
+
+.next,
+.prev {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 3px solid #333;
+}
+
+.prev:before {
+  content:"";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 35%;
+  height: 35%;
+  border-left: 4px solid #333;
+  border-bottom: 4px solid #333;
+  -webkit-transform: translate(-30% -50%) rotate(45deg);
+  transform: translate(-30%, -50%) rotate(45deg);
+}
+
+
+.next:before {
+  content:"";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 35%;
+  height: 35%;
+  border-right: 4px solid #333;
+  border-bottom: 4px solid #333;
+  -webkit-transform: translate(-70% -50%) rotate(-45deg);
+  transform: translate(-70%, -50%) rotate(-45deg);
+}
+

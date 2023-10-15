@@ -4,7 +4,7 @@
     background-clip: text;
 
     -webkit-background-clip: text;
-    font-family: Kadwa, Calibri, serif;
+font-family: "Inknut Antiqua", serif;
 
     font-size: 5vw;
     font-style: normal;
@@ -17,7 +17,7 @@
 
 .title1 p {
     color: rgba(3, 5, 36, 0.46);
-    font-family: Kaisei Decol, Calibri, serif;
+  font-family: "Inknut Antiqua", serif;
     font-size: 2.25vw;
     font-style: normal;
 
