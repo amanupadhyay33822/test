@@ -57,6 +57,7 @@
 .news1 img:hover,
 .news2 img:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 .whywecome {
     display: flex;

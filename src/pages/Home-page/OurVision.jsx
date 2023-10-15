@@ -24,7 +24,7 @@ function OurVision() {
             backgroundSize: "cover",
           }}
         >
-          <a href="/inactive url" id="our-vision">
+          <a  id="our-vision">
             OUR VISION
           </a>
           <div className="vision_img">
@@ -32,10 +32,10 @@ function OurVision() {
               <div className="sectioncard">
                 <div className="sectionfront">
                   <img loader="lazy" src={our_vision_section1} alt="" />
-                  <a href="/inactive url" id="section-upper-text">
+                  <a  id="section-upper-text">
                     INDIA's best
                   </a>
-                  <a href="/inactive url" id="section-lower-text">
+                  <a  id="section-lower-text">
                     Medical SERVICE
                   </a>
                 </div>
@@ -49,10 +49,10 @@ function OurVision() {
               <div className="sectioncard">
                 <div className="sectionfront">
                   <img loader="lazy" src={our_vision_section2} alt="" />
-                  <a href="/inactive url" id="section-upper-text">
+                  <a  id="section-upper-text">
                     Saving Life
                   </a>
-                  <a href="/inactive url" id="section-lower-text">
+                  <a  id="section-lower-text">
                     with Perfection
                   </a>
                 </div>
@@ -67,10 +67,10 @@ function OurVision() {
               <div className="sectioncard">
                 <div className="sectionfront">
                   <img loader="lazy" src={our_vision_section3} alt="" />
-                  <a href="/inactive url" id="section-upper-text">
+                  <a  id="section-upper-text">
                     Economical and
                   </a>
-                  <a href="/inactive url" id="section-lower-text">
+                  <a  id="section-lower-text">
                     Fastest
                   </a>
                 </div>

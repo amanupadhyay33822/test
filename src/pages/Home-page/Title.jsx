@@ -30,10 +30,10 @@ function Title() {
           whileInView={"show"}
           className="left"
         >
-          <a href="/inactive url" id="ambuvians">
+          <a  id="ambuvians">
             AMBUvians
           </a>
-          <a href="/inactive url" id="slogan">
+          <a  id="slogan">
             India's First One-Stop Solution of all medical problems
           </a>
           <button id="facts">FACTS</button>

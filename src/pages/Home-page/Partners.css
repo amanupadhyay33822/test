@@ -33,6 +33,7 @@ figcaption{
   font-size: 1.5vw;
   font-weight: 700;
 }
+
 .side-partner {
   display: flex;
   flex-direction: column;
@@ -48,7 +49,7 @@ figcaption{
   transition: 0.15s all ease;
 }
 
-.partners img:hover {
+.partners a:hover {
   transform: scale(1.05);
 }
 .side-partner img{

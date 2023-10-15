@@ -8,14 +8,14 @@ function Partners() {
   return (
     <>
       <div className="ourPartners">
-        <a href="/inactive url">Our Partners</a>
+        <a>Our Partners</a>
       </div>
       <div className="partners">
       <a href="https://www.teific.in" className="side-partner">
           <img loader="lazy" src={teific_logo} alt="" />
           <figcaption>Teific</figcaption>
         </a>
-        <a href="https://www.teific.in">
+        <a href="hhttps://www.kiet.edu/">
           <img loader="lazy" src="./images/Home-images/kiet.png" alt="" />
           <figcaption>KIET Group Of Institutions</figcaption>
 

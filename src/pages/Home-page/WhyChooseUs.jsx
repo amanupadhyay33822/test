@@ -20,7 +20,7 @@ function WhyChooseUs() {
         whileInView={"show"}
         className="choose"
       >
-        <a href="/inactive url" id="why_us">
+        <a  id="why_us">
           Why Choose Us?
         </a>
         <div className="low">

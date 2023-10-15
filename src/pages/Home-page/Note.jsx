@@ -100,24 +100,24 @@ function Note() {
             </div>
           </div>
           <div className="rightnote">
-            <a href="/inactive url" id="dir">
+            <a id="dir">
               Director's Note
             </a>
-            <a href="/inactive url" id="yash">
+            <a id="yash">
               Dr. Rahat Ullah Khan
             </a>
-            {/* <a href="/inactive url" id="ed">Founder & Executive Director</a> */}
-            <a href="/inactive url" id="aim">
+            {/* <a  id="ed">Founder & Executive Director</a> */}
+            <a  id="aim">
               Imagine the sky as your limit, yet even that is a self-imposed
               boundary. Ambuvians Healthcare Defies limit Daily, pushing medical
               Frontier. Let your potential soar; Ambuvians proves that even the
               clouds are meant to be surpassed.
             </a>
-            <a href="/inactive url" id="good">
+            <a  id="good">
               "The Only Limits That Exist are the ones you Place on yourself,
               Break Free , Aim high and Defy your own Expectations"
             </a>
-            <a href="/inactive url" id="mr">
+            <a  id="mr">
               -Dr. Rahat Ullah Khan
             </a>
           </div>
