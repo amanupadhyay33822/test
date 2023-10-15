@@ -33,7 +33,7 @@ function Title() {
           <a  id="ambuvians">
             AMBUvians
           </a>
-          <a  id="slogan">
+          <a id="slogan">
             India's First One-Stop Solution of all medical problems
           </a>
           <button id="facts">FACTS</button>
