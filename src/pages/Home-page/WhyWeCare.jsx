@@ -11,7 +11,7 @@ function WhyWeCare() {
       setTimeout(() => {
         setImageIndex((prevIndex) => (prevIndex % 7) + 1);
         setIsFading(false);
-      }, 500); 
+      }, 500);
     }, 5000);
 
     return () => {
@@ -30,12 +30,35 @@ function WhyWeCare() {
       </div>
 
       <div className={`news1`}>
-      <img loader="lazy" src={imageSrc1} alt="" className={`${isFading ? "fade" : ""}`}/>
+        <img
+          loader="lazy"
+          src={imageSrc1}
+          alt=""
+          className={`${isFading ? "fade" : ""}`}
+        />
         <img loader="lazy" src="./images/Home-images/2.jpeg" alt="" />
-        <img loader="lazy" src={imageSrc2} alt="" className={`${isFading ? "fade" : ""}`}/>
+        <img
+          loader="lazy"
+          src={imageSrc2}
+          alt=""
+          className={`${isFading ? "fade" : ""}`}
+        />
       </div>
+
+      {/* Video */}
+      {/* <div className="news2">
+        <video controls loop preload="auto">
+          <source src="whywecare.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div> */}
       <div className="news2">
-        <img loader="lazy" src={imageSrc3} alt="" className={`${isFading ? "fade" : ""}`} />
+        <img
+          loader="lazy"
+          src={imageSrc3}
+          alt=""
+          className={`${isFading ? "fade" : ""}`}
+        />
       </div>
     </>
   );

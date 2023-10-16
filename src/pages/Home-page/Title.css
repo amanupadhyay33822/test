@@ -1,8 +1,8 @@
 .First-section {
-    margin-bottom: 6vw;
-    display: flex;
-    flex-direction: column;
-  }
+  margin-bottom: 6vw;
+  display: flex;
+  flex-direction: column;
+}
 
 .right {
   display: flex;
@@ -50,7 +50,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.left #slogan {
+.left .slogan {
   text-decoration: none;
   text-align: center;
   font-size: 25px;
@@ -61,6 +61,8 @@
   color: #1e1e1e;
   position: relative;
 }
+
+
 
 #facts {
   width: 300px;
@@ -92,37 +94,43 @@
     margin-bottom: 3vw;
   }
   .right {
-    margin-left: 50vw;
-    width: 50vw;
+    margin-left: 40vw;
+    width: 60vw;
     height: 50vw;
   }
   .am {
-    width: 40vw;
-    margin-top: 10vw;
+    width: 50vw;
+    height: 50vw;
+    margin-top: 0vw;
   }
   .left {
     position: relative;
-    margin-top: -55vw;
-    margin-bottom: 15vw;
+    margin-top: -50vw;
+    margin-bottom: 10vw;
     padding-left: 2%;
-
   }
   .left #ambuvians {
     font-size: 6vw;
     margin-left: 3rem;
   }
-  .left #slogan {
+  .left .slogan {
     width: 75%;
     margin-left: 3rem;
     font-size: 2vw;
   }
-
+  .left .slogon1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: 1.5vw;
+  }
+  
 
   #facts {
     font-size: 1.5vw;
     width: 300px;
     height: 100px;
-    margin-left: 14vw
+    margin-left: 14vw;
   }
 }
 @media (min-width: 2101px) and (max-width: 2560px) {
@@ -130,36 +138,41 @@
     margin-bottom: 3vw;
   }
   .right {
-    margin-left: 50vw;
-    width: 50vw;
+    margin-left: 40vw;
+    width: 60vw;
     height: 50vw;
   }
   .am {
-    width: 40vw;
-    margin-top: 10vw;
+    width: 50vw;
+    height: 50vw;
   }
   .left {
     position: relative;
-    margin-top: -55vw;
-    margin-bottom: 15vw;
+    margin-top: -50vw;
+    margin-bottom: 10vw;
     padding-left: 2%;
-
   }
   .left #ambuvians {
     font-size: 6vw;
     margin-left: 3rem;
   }
-  .left #slogan {
+  .left .slogan {
     width: 75%;
     margin-left: 3rem;
     font-size: 2vw;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: 1.5vw;
   }
 
   #facts {
     font-size: 1.5vw;
     width: 300px;
     height: 100px;
-    margin-left: 14vw
+    margin-left: 14vw;
   }
 }
 @media (min-width: 1441px) and (max-width: 2100px) {
@@ -167,74 +180,82 @@
     margin-bottom: 3vw;
   }
   .right {
-    margin-left: 50vw;
-    width: 50vw;
+    margin-left: 40vw;
+    width: 60vw;
     height: 50vw;
   }
   .am {
-    width: 40vw;
-    margin-top: 10vw;
+    width: 50vw;
+    height: 50vw;
   }
   .left {
     position: relative;
-    margin-top: -55vw;
-    margin-bottom: 15vw;
+    margin-top: -50vw;
+    margin-bottom: 10vw;
     padding-left: 2%;
-
   }
   .left #ambuvians {
     font-size: 6vw;
     margin-left: 3rem;
   }
-  .left #slogan {
+  .left .slogan {
     width: 75%;
     margin-left: 3rem;
     font-size: 2vw;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: 1.5vw;
   }
 
   #facts {
     width: 150px;
     height: 60px;
-    margin-left: 14vw
+    margin-left: 14vw;
   }
-
-
 }
 @media (min-width: 1281px) and (max-width: 1440px) {
   .First-section {
     margin-bottom: 3vw;
   }
   .right {
-    margin-left: 50vw;
-    width: 50vw;
+    margin-left: 40vw;
+    width: 60vw;
     height: 50vw;
   }
   .am {
-    width: 40vw;
-    margin-top: 10vw;
+    width: 50vw;
+    height: 50vw;
   }
   .left {
     position: relative;
-    margin-top: -55vw;
-    margin-bottom: 15vw;
+    margin-top: -50vw;
+    margin-bottom: 10vw;
     padding-left: 2%;
   }
   .left #ambuvians {
     font-size: 6vw;
     margin-left: 3rem;
   }
-  .left #slogan {
+  .left .slogan {
     width: 75%;
     margin-left: 3rem;
     font-size: 2vw;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: 1.5vw;
   }
 
   #facts {
     width: 150px;
     height: 60px;
-    margin-left: 14vw
+    margin-left: 14vw;
   }
-
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -242,27 +263,34 @@
     margin-bottom: 3vw;
   }
   .right {
-    margin-left: 50vw;
-    width: 50vw;
+    margin-left: 40vw;
+    width: 60vw;
     height: 50vw;
   }
   .am {
-    width: 40vw;
-    margin-top: 10vw;
+    width: 50vw;
+    height: 50vw;
   }
   .left {
     position: relative;
-    margin-top: -55vw;
-    margin-bottom: 15vw;
+    margin-top: -50vw;
+    margin-bottom: 10vw;
+    padding-left: 2%;
   }
   .left #ambuvians {
     font-size: 6vw;
     margin-left: 3rem;
   }
-  .left #slogan {
+  .left .slogan {
     width: 75%;
     margin-left: 3rem;
     font-size: 2vw;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: 1.5vw;
   }
 
   #facts {
@@ -289,27 +317,34 @@
     margin-bottom: 4vw;
   }
   .right {
-    margin-left: 30vw;
-    width: 70vw;
-    height: 70vw;
+    margin-left: 40vw;
+    width: 60vw;
+    height: 50vw;
   }
   .am {
-    width: 40vw;
-    margin-top: 10vw;
+    width: 50vw;
+    height: 50vw;
   }
   .left {
     position: relative;
-    margin-top: -65vw;
-    margin-bottom: 30vw;
+    margin-top: -50vw;
+    margin-bottom: 10vw;
+    padding-left: 2%;
   }
   .left #ambuvians {
     font-size: 6vw;
     margin-left: 3rem;
   }
-  .left #slogan {
+  .left .slogan {
     width: 75%;
     margin-left: 3rem;
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: 1.5vw;
   }
 
   #facts {
@@ -342,25 +377,31 @@
   }
   .am {
     width: 50vw;
-    margin-top: 5vw;
+    height: 50vw;
   }
   .left {
     position: relative;
-    margin-top: -60vw;
+    margin-top: -50vw;
     margin-bottom: 5vw;
+    padding-left: 2%;
   }
 
-  .left #slogan {
-    font-size: 3vw;
+  .left .slogan {
+    font-size: 2.5vw;
     margin-left: 3rem;
     width: 75%;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 44%;
+    left: 22%;
+    font-size: 1.5vw;
   }
 
   .left #ambuvians {
     font-size: 40px;
     margin-left: 3rem;
   }
-
 
   #facts {
     margin-left: 9vw;
@@ -404,9 +445,9 @@
     margin-left: 4vw;
   }
 
-  .left #slogan {
+  .left .slogan {
     font-size: 4vw;
-    width:85%;
+    width: 85%;
     margin-left: 6vw;
   }
 
@@ -447,7 +488,7 @@
     margin-left: 5rem;
   }
 
-  .left #slogan {
+  .left .slogan {
     font-size: 25px;
     width: 60%;
     height: auto;
@@ -473,14 +514,14 @@
   }
   .right {
     width: 100vw;
-    height: 80vw;
+    /* height: 80vw; */
   }
   .am {
     width: 50vw;
     margin-top: 10vw;
   }
   .left {
-    margin-top: -90vw;
+    margin-top: -65vw;
     margin-bottom: 20vw;
   }
   .left #ambuvians {
@@ -488,10 +529,16 @@
     margin-left: 4vw;
   }
 
-  .left #slogan {
+  .left .slogan {
     font-size: 4vw;
-    width:85%;
+    width: 85%;
     margin-left: 6vw;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 63%;
+    left: 22%;
+    font-size: 1.8vw;
   }
 
   #facts {
@@ -514,3 +561,49 @@
   }
 }
 
+@media (max-width: 540px) {
+  .right {
+    display: none;
+  }
+  .First-section {
+    margin-bottom: 6vw;
+  }
+  .left {
+    position: relative;
+    width: 100vw;
+    margin-top: -10vw;
+    margin-bottom: 5vw;
+    text-align: center;
+  }
+
+  .left .slogan {
+    font-size: 3.8vw;
+    margin-left: 10vw;
+    width: 75%;
+    text-align: center;
+  }
+
+  .left #ambuvians {
+    font-size: 40px;
+    width: 98vw;
+    margin-left: 0;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 63%;
+    left: 22%;
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 420px) {
+  .left .slogan {
+    font-size: 4vw;
+  }
+  .left .slogon1 {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    font-size: 2.5vw;
+  }
+}
