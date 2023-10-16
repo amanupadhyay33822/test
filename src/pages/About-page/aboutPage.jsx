@@ -11,7 +11,6 @@ import React, { useEffect, useState } from 'react';
 
 const About = () => {
   const [titleIndex, setTitleIndex] = useState(1);
-  const [whoWeAreIndex, setWhoWeAreIndex] = useState(1);
 
   const title = "Faster-Ontime-Reliable";
   const whoWeAreText = "As a dedicated team of individuals who deeply care about your precious time and the well-being of your loved ones, we intimately understand the distress that ensues from the untimely response of hospitals and ambulances during critical junctures. Our mission revolves around reshaping the perception of medical facilities in India, replacing fear with assurance. We aim to imbue our fellow citizens with a renewed sense of security, trusting in a healthcare system that values both time and lives.";
@@ -31,17 +30,6 @@ const About = () => {
     };
   }, [titleIndex]);
   
-  useEffect(() => {
-    const typeWriterNew = () => {
-      const newWhoWeAreText = whoWeAreText.slice(0, whoWeAreIndex);
-      setWhoWeAreIndex(whoWeAreIndex + 1);
-      document.querySelector(".who-we-are-text").innerText = newWhoWeAreText;
-    }
-      const int = setTimeout(typeWriterNew, 20);
-      return () =>{
-    };
-    typeWriterNew();
-  }, [whoWeAreIndex]);
 
 
 
@@ -109,14 +97,6 @@ const About = () => {
       {/* Random Quotes Section */}
       <div className="quotes">
         <p id="quote-text">Your health journey, our priority - that's the Ambuvians way</p>
-      </div>
-
-      {/* About We */}
-      <div className="about-we"  style={{ backgroundImage: 'url(./images/About-images/about-we.jpg)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
-        <div className="about-we-text">
-          <h2>Who We Are</h2>
-          <p className="who-we-are-text"></p>
-        </div>
       </div>
 
       {/* Why Choose Us Section */}
