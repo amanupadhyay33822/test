@@ -144,11 +144,6 @@
   }
   .am {
     width: 50vw;
-    height: 50vw;
-  }
-  .left {
-    position: relative;
-    margin-top: -50vw;
     margin-bottom: 10vw;
     padding-left: 2%;
   }
@@ -186,7 +181,6 @@
   }
   .am {
     width: 50vw;
-    height: 50vw;
   }
   .left {
     position: relative;
@@ -227,7 +221,6 @@
   }
   .am {
     width: 50vw;
-    height: 50vw;
   }
   .left {
     position: relative;
@@ -269,7 +262,6 @@
   }
   .am {
     width: 50vw;
-    height: 50vw;
   }
   .left {
     position: relative;
@@ -323,7 +315,6 @@
   }
   .am {
     width: 50vw;
-    height: 50vw;
   }
   .left {
     position: relative;
@@ -377,7 +368,6 @@
   }
   .am {
     width: 50vw;
-    height: 50vw;
   }
   .left {
     position: relative;

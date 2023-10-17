@@ -93,10 +93,11 @@ a {
   text-align: center;
   top: 30%;
   font-size: 170px;
-  background: linear-gradient(to right, #0092ee 0%, #203381 100%);
+  /* background: linear-gradient(to right, #0092ee 0%, #203381 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
+  color:#000000;
   font-family: "Inknut Antiqua", serif;
 
   left: 0;
@@ -104,7 +105,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   font-family: kadwa;
-  text-shadow: -3px -3px black;
+  /* text-shadow: -3px -3px black; */
 }
 
 .company-quote {
@@ -401,7 +402,8 @@ main {
 @media (min-width: 2560px) {
   .company h1 {
     font-size: 30rem;
-    text-shadow: -10px -10px black;
+    /* text-shadow: -10px -10px black; */
+    top:3%;
   }
   .company-quote {
     padding-top: 1.5%;
@@ -439,9 +441,9 @@ main {
 
 @media (min-width: 1441px) and (max-width: 2560px) {
   .company h1 {
-    top: 30%;
+    top: 10%;
     font-size: 22rem;
-    text-shadow: -10px -10px black;
+    /* text-shadow: -10px -10px black; */
   }
   .company-quote {
     padding-top: 1.5%;
@@ -500,9 +502,9 @@ main {
 
 @media (min-width: 1281px) and (max-width: 1440px) {
     .company h1 {
-        top: 20%;
-        font-size: 14rem;
-        text-shadow: -6px -6px black;
+        top:1%;
+        font-size: 16rem;
+        /* text-shadow: -6px -6px black; */
       }
   .company-quote {
     padding-top: 1.5%;
@@ -545,8 +547,8 @@ main {
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .company h1 {
-        top: 20%;
-        font-size: 12rem;
+        top: -5%;
+        font-size: 16rem;
       }
   .company-quote {
     padding-top: 1.5%;
@@ -590,8 +592,8 @@ main {
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .company h1 {
-        top: 25%;
-        font-size: 10rem;
+        top: 3%;
+        font-size: 12rem;
       }
   .company-quote {
     padding-top: 4%;
@@ -639,7 +641,7 @@ main {
 
 @media (min-width: 590px) and (max-width: 767px) {
     .company h1 {
-        top: 17%;
+        top: 10%;
         font-size: 8rem;
       }
   .company-quote {
@@ -685,7 +687,7 @@ main {
 
 @media (min-width: 481px) and (max-width: 590px) {
     .company h1 {
-        top: 20%;
+        top: 10%;
         font-size: 6rem;
       }
   .company-quote {
@@ -734,7 +736,7 @@ main {
 @media (min-width: 320px) and (max-width: 480px) {
   .company h1 {
     font-size: 6.5rem;
-    top: 32%;
+    top: 18%;
   }
   .company-quote {
     padding-top: 3%;

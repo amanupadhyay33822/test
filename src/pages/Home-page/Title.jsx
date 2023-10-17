@@ -5,8 +5,8 @@ import { fadeIn } from "../../variant";
 import "./Title.css";
 
 function Title() {
-  const images = ["./images/Home-images/bgi11.png", "./images/Home-images/bgi21.png", "./images/Home-images/bgi31.png"];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  // const images = ["./images/Home-images/bgi11.png", "./images/Home-images/bgi21.png", "./images/Home-images/bgi31.png"];
+  // const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const quotes = [
     { author: "Better Healthcare, Better Tomorrow." },
@@ -28,17 +28,17 @@ function Title() {
   return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 5000); // Change image every 5 seconds
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentImageIndex((prevIndex) =>
+  //       prevIndex === images.length - 1 ? 0 : prevIndex + 1
+  //     );
+  //   }, 5000); // Change image every 5 seconds
 
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -54,7 +54,7 @@ function Title() {
           <img
             loader="lazy"
             className="am"
-            src={images[currentImageIndex]}
+            src= "./images/Home-images/bgi.png"/*images[currentImageIndex]*/
             alt="ambulance"
           />
         </motion.div>

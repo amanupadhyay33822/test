@@ -135,26 +135,29 @@ const AmbulanceTypes = () => {
           <article>
             <h1 className="ambulance-detail-h1">{selectedAmbulance.fullName}</h1>
             <div className="selected-ambulance-img">
-              <button className="prev" onClick={showPreviousImage}></button>
+              
               <figure className="selected-ambulance-outer-figure">
                 <img
                   loading="lazy"
-                  src={`images/Service-images/ambulance/${selectedAmbulance.name}_${selectedImageIndex + 1}.webp`}
+                  src={`images/Service-images/ambulance/${selectedAmbulance.name}.webp`}
                   alt={selectedAmbulance.name}
                   className="selected-ambulance-outer-img"
                 />
               </figure>
-              <button className="next" onClick={showNextImage}>
-                
+              <button className="prev" onClick={showPreviousImage}>
+               
               </button>
               <figure className="selected-ambulance-inner-figure">
                 <img
                   loading="lazy"
-                  src={`images/Service-images/ambulance/inner-${selectedAmbulance.name}.webp`}
+                  src={`images/Service-images/ambulance/inner-${selectedAmbulance.name}_${selectedImageIndex + 1}.webp`}
                   alt={`${selectedAmbulance.name} interior`}
                   className="selected-ambulance-inner-img"
                 />
               </figure>
+              <button className="next" onClick={showNextImage}>
+               
+              </button>
             </div>
             <div className="selected-ambulance-detail">
               <p className="selected-ambulance-detail-p" dangerouslySetInnerHTML={{ __html: selectedAmbulance.detail }}></p>
