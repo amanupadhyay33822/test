@@ -55,275 +55,55 @@ a {
     text-decoration: none;
 }
 
-body{
-    margin: 0;
-    display: grid;
+/* Footer style */
+.footer {
+    background-image: linear-gradient(#0f2831, #37414c, #5361a6);
+    color: white;
+    font-family: Kadwa, Calibri, serif;
+    margin-bottom: -15px;
 }
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:#9b9b9b;
-    line-height: 3.8;
-    font-size: 90px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-#footer 
- {  display: flex;  
-    flex-flow: row wrap;
-    padding: 50px;
-    background-color: black; 
-    color:white;
-    justify-content: space-evenly;  
-    padding: 20px;
-    font-family: "Inknut Antiqua", serif;
-    line-height: 1.5;
 
-}
-.Knowus, .Services, .contact{
+.footer-title {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+ul,
+.footer a {
+    font-size: 1.25vw;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0;
+    gap: 1vw;
+}
+
+.footer-options div {
+    align-items: center;
+    display: flex;
     flex-direction: column;
-
 }
 
-.Knowus li , .Services li, .contact li 
-{   display: flex;
-    list-style: none;
-    margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.contact li {
-    justify-content: flex-start;
-}
-
-.fa-solid, .fa-brands 
-{
-    font-size: 40px;
-    margin-right: 10px; 
-}
-
-.Knowus ul a, .Services ul a, .contact ul a{
-    color: white;
-    text-decoration: none;
-}
-
-.contact {
-    line-height: 2;
-
-}
-.contact .about-h2 {
-    margin-bottom: 3rem;
-}
-
-.Knowus ul , .Services ul , .contact ul 
-{ 
-    padding: 0; 
-}
-li:hover{
+.contact-us-form {
+    background: linear-gradient(90deg, #e497db 0%, #6e71f5 100%);
+    padding: 0.5vw 2vw;
     cursor: pointer;
-    scale: 1.2;
-    transition: 0.3s;
+    margin-top: 1.5vw;
+    border-radius: 1.5vw;
+    font-size: 1.25vw;
 }
 
-.contact li:hover{
-    scale: 1;
-    transition: 0.5s;
+.contact-us-form:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
 }
-
-.contact li{
-    display: flex;
-    align-items: center;
-}
-
-button {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 23px;
-    line-height: 35px;
-    width: 160px;
-    height: 35px;
-    border-radius: 20px;
-    border: none;
-    overflow: hidden;
-    color: ghostwhite;
-    background: linear-gradient(90deg, rgba(211,78,227,1) 0%, rgba(4,51,158,1) 100%, rgba(0,223,255,1) 100%);
-    cursor: pointer;
-  }
-button:hover{
-    cursor: pointer;
-    scale: 1.3;
-    transition: 0.5s;
-}
-                                                 /* Follow Us styling */
-.icons {
-display: flex;
-justify-content: space-around;
-text-align: center;
-gap: 4vw;
-margin: 8px 0;
-}
-
-.icons img {
-width: 25px;
-height: auto;
-
-}
-
-.icons img:hover{
-    cursor: pointer;
-    scale: 1.3;
-    transition: 0.5s;
-}
-                            /* Get The app Styling */
-div.pic{
-    display: flex;
-}
-.pic img{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 0;
-    width: 15vh;
-}
-img.play-store{
-    margin-top:0px;
-    height: 6vh;
-}
-img.app-store{
-    margin:10px;
-}
-                                /* contact us styling */
-  .about-h2{
-    text-align: center;
-  }
-
-a[href^="tel:"] {
-    color: white;
-    text-decoration: none;
-  }
-a[href^="mailto:"] {
-    color: white;
-    text-decoration: none;
-  }
-a[href^="geo:"] {
-    color: white;
-    text-decoration: none;
-  }
-          
-.contact li span{
-    margin-left: 10px;
-    margin-top: -26px;
-}  
-.contact li img{
-    width: 2.5vw;
-}  
-                                /* copyright styling */
-.copyright{
-    text-align: center;
-    background-color: black;
-    color: #9F9F9F;
-    position: relative;
-    margin-top: -3vh;
-}
-
-                                    /* Responsive Footer */
-@media (min-width: 2561px) {
-    .showing-heading{
-        display: none;
-    }
-}
-@media (min-width: 2101px) and (max-width: 2560px) {
-    .showing-heading{
-        display: none;
-    }
-}
-@media (min-width: 1441px) and (max-width: 2100px) {
-    .showing-heading{
-        display: none;
-    }
-}
-@media (min-width: 1281px) and (max-width: 1440px) {
-    .showing-heading{
-        display: none;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .showing-heading{
-        display: none;
-    }
-}
-@media (min-width: 841px) and (max-width: 1025px) {
-    .hidden-heading{
-        display: none;
-      }
-      .get {
-        order: 1; /* Change the order of .get to appear at the bottom */
-      }
-      .Knowus, .Services{
-        flex-basis: 72%;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 840px) {
-    .get-app{
-        text-align: center;
-      }
-    .about-h2{
-        text-align: unset;
-      }
-    .hidden-heading{
-        display: none;
-      }
-    .get {
-        order: 1; /* Change the order of .get to appear at the bottom */
-      }
-    .contact{
-        flex-basis: 98%;
-    }
-    .Knowus, .Services{
-    flex-basis: 48%;
-}
-
-}
-
-@media (max-width: 700px) {
-    .get {
-      order: 1; /* Change the order of .get to appear at the bottom */
-
-    }
-    footer{
-        bottom: unset;
-    }
-    .Knowus{
-        flex-basis: 98%;
-    }
-    .Knowus:nth-child(2), .Services, .contact {
-        flex-basis: 97%;
-  }
-  .showing-heading{
-    font-size: 1.4rem;
-    text-align: center;
-  }
-  .hidden-heading{
-    display: none;
-  }
-  .about-h2{
-    text-align: unset;
-  }
-  .get-app{
-    text-align: center;
-  }
-}
-
 .form-close-btn {
     position: absolute;
     right: 5%;
@@ -405,14 +185,119 @@ select {
     align-self: center;
     text-align: center;
 }
+.apk {
+    display: flex;
+    justify-content: center;
+}
 
+.social-contact {
+    margin-left: 2vw;
+    width: 3.5vw;
+}
 
 @media (max-width: 650px) {
+    .social-contact {
+        margin-left: 2vw;
+        width: 3.5vh;
+    }
+
+    .copy {
+        font-size: 2vw;
+    }
     .form {
         bottom: 6%;
     }
 }
 
+.know-us h1,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* download button style */
+.apk {
+    align-items: center;
+    display: flex;
+    gap: 1vw;
+}
+.apk button {
+    align-items: center;
+    border-radius: 0.5vw;
+    display: flex;
+    padding: 0.5vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+button span {
+    font-size: 1.4vh;
+    font-weight: bold;
+}
+
+/* making links white */
+.know-us a {
+    color: white;
+}
+
+.services a {
+    color: white;
+}
+
+.contact-us a {
+    color: white;
+}
+
+figure {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+/* adding hover and animations in footer */
+.footer a:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #3d4347;
+    display: inline-block;
+    position: relative;
+    font-family: "Kaisei Decol", Calibri, serif;
+}
+
+.footer a:after {
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+    width: 100%;
+}
+
+.footer a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* download from appstore and playstore*/
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 0px;
+}
+.handbook {
+    font-size: 4vw;
+}
+
+.download img {
+    margin-right: 0px;
+}
 
 @media (min-width: 1024px) {
     .form {
@@ -434,6 +319,18 @@ select {
     .form-close-btn {
         font-size: 1.5rem;
     }
+    .download .appstore img {
+        width: 15vw;
+        height: 4vw;
+    }
+    .download .playstore img {
+        width: 15vw;
+        height: 5vw;
+    }
+    .connect img {
+        height: auto;
+        width: 40px;
+    }
     .form h1 {
         font-size: 3vw;
     }
@@ -442,9 +339,6 @@ select {
         margin-bottom: 2vw;
         font-size: 2vw;
         text-align: center;
-    }
-    .contact li img{
-        width: 3vw;
     }
 }
 
@@ -473,6 +367,14 @@ select {
     .form-close-btn {
         font-size: 1.6rem;
     }
+    .download .appstore img {
+        width: 15vw;
+        height: 4vw;
+    }
+    .download .playstore img {
+        width: 15vw;
+        height: 5vw;
+    }
     .form h1 {
         font-size: 2.5vw;
     }
@@ -481,9 +383,6 @@ select {
         margin-bottom: 3.5vw;
         font-size: 2vw;
         text-align: center;
-    }
-    .contact li img{
-        width: 5vw;
     }
 }
 
@@ -521,10 +420,15 @@ select {
     .form-close-btn {
         font-size: 01.3rem;
     }
-    .contact li img{
-        width: 7vw;
-    }
 
+    .download .appstore img {
+        width: 20vw;
+        height: 8vw;
+    }
+    .download .playstore img {
+        width: 20vw;
+        height: 8vw;
+    }
 }
 
 /* 
@@ -570,7 +474,113 @@ select {
     .form {
         bottom: 7.5%;
     }
-    .contact li img{
-        width: 7vw;
-    } 
+
+    .download .appstore img {
+        width: 20vw;
+        height: 8vw;
+    }
+    .download .playstore img {
+        width: 20vw;
+        height: 8vw;
+    }
+}
+
+/* copy right section*/
+
+.copyright {
+    color: white;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.contact-us img:hover {
+    cursor: pointer;
+}
+
+.connect {
+    margin-top: -5vw;
+}
+
+.connect img:hover {
+    cursor: pointer;
+    scale: 1.3;
+    transition: 0.6s;
+}
+
+.download img:hover {
+    cursor: pointer;
+}
+
+/* different ViewPorts media queries */
+
+/* media query for the footer section */
+
+/* for mobile */
+
+@media only screen and (max-width: 600px) {
+    /* connect from us section */
+
+    .connect p {
+        color: white;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .connect .icons {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .connect img {
+        width: 5vw;
+    }
+
+    /* download our app section */
+}
+
+/* for desktop */
+
+@media (min-width: 601px) {
+    /* connect us section */
+
+    .connect p {
+        color: white;
+        font-size: 1.4em;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .connect .icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .connect img {
+        height: auto;
+        width: 3vw;
+    }
+
+    .connect .first-icon {
+        margin: 0px 40px;
+    }
+
+    .connect .second-icon {
+        margin: 0px 40px;
+    }
+
+    .connect .third-icon {
+        margin: 0px 40px;
+    }
+
+    .connect .fourth-icon {
+        margin: 0px 40px;
+    }
+
+    /* download section */
 }
