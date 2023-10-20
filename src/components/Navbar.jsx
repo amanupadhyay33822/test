@@ -53,6 +53,12 @@ const Navbar = () => {
                                     SERVICES
                                 </a>
                             </li>
+                            <li>
+                                <a href="/login">LOGIN</a>
+                            </li>
+                            <li>
+                                <a href="/register">REGISTER</a>
+                            </li>
                         </ul>
                     </div>
                     <div
@@ -72,11 +78,11 @@ const Navbar = () => {
                                 <option value="hindi">Hindi</option>
                             </select> */}
                         </div>
-                        <div className="right-header-element">
+                        {/* <div className="right-header-element">
                             <abbr title="Pic">
                                 <img className="pic" src="images/Navbar-images/unnamed.webp" alt="Profile" />
                             </abbr>
-                        </div>
+                        </div> */}
                         <div className="toggle_btn" onClick={toggleMenu}>
                             <i className={`fa-solid ${isMenuOpen ? "fa-xmark" : "fa-bars"}`} />
                         </div>
@@ -95,6 +101,7 @@ const Navbar = () => {
                         <li>
                             <a href="/services">Services</a>
                         </li>
+                       
                     </ul>
                 </div>
             </div>

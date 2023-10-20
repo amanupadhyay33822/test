@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 // import "./Home.css"
 
@@ -17,6 +17,8 @@ import Partners from "./Partners";
 
 import Footer from "../../components/Footer";
 import WhyChooseUs from "./WhyChooseUs";
+import MyModal from "../../components/Modals/showModals";
+import Modals from "../../components/Modals/Modals";
 
  
 
@@ -24,10 +26,16 @@ import WhyChooseUs from "./WhyChooseUs";
 
 
 const Home = () =>{
+  const [showModal,setShowModal] =useState(false);
+  useEffect(()=>{
+    const timer = setTimeout(()=>{
+      setShowModal(true);
+    },7000)
+  },[]);
     return(
-      <>
+      <>   
         <Navbar/>
-
+       { showModal && <Modals/>}
           <section style={{marginTop:'7.5vh'}}>
     
           <ReachOut/>

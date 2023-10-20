@@ -1,0 +1,317 @@
+
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    width: 100%;
+    height: 100%;
+    overflow-y: visible;
+  }
+  .log-in{
+    cursor: pointer !important;
+  }
+
+   /* Header section   */
+   /* AMBU LOGO */
+.header img{
+    position: absolute;
+    top: 13px;
+    left: 5px;
+    z-index: 1; 
+    
+    flex: 1;
+  height: 15%;
+  width:18%;
+  margin-top: 0vw;
+}
+/* Welcome to AMBUvians */
+.text-1{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: "Inter";
+    font-size: 4.1vw;
+    font-weight: bold;
+    font-family: "Kaisei Decol", Calibri, serif;
+    position: absolute;
+    left:30%;
+    top:13px;
+}
+h2{
+    color:blue;
+    font-family: inknut antiqua;
+    
+}
+/* Let's hope you stay on top of your health */
+.text-2{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Kaisei Decol", Calibri, serif;
+    position: absolute;
+    left:55%;
+    top:14%;
+    width: 70%;
+}
+/* Main body section */
+
+/* Left-Side img */
+.content img{
+position: absolute;
+width: 55%;
+height: 90%;
+left: 0px;
+top: 13%;
+}
+
+/* Input Fields */
+input[type="text"]{
+box-sizing: border-box;
+padding-left: 8px;
+position: absolute;
+width: 45vw;
+height: 50px;
+left: 50%;
+top: 25%;
+font-size: 1.3rem;
+background: #FFFFFF;
+border: 1px solid #0A66C2;
+border-radius: 10px;
+cursor:pointer;
+}
+
+input[type="email"]{
+
+    box-sizing: border-box;
+    padding-left: 8px;
+    position: absolute;
+    width: 45vw;
+    height: 50px;
+    left: 50%;
+    top: 40%;
+    font-size: 1.3rem;
+    background: #FFFFFF;
+    border: 1px solid #0A66C2;
+    border-radius: 10px;
+    cursor:pointer
+    }
+    input[type="password"]{
+
+        box-sizing: border-box;
+        padding-left: 8px;
+        position: absolute;
+        width: 45vw;
+        height: 50px;
+        left: 50%;
+        top: 55%;
+        font-size: 1.3rem;
+        background: #FFFFFF;
+        border: 1px solid #0A66C2;
+        border-radius: 10px;
+        cursor:pointer
+        }
+        .input-4 input{
+
+            box-sizing: border-box;
+            padding-left: 8px;
+            position: absolute;
+            width: 45vw;
+            height: 50px;
+            left: 50%;
+            top: 69%;
+            font-size: 1.3rem;
+            background: #FFFFFF;
+            border: 1px solid #0A66C2;
+            border-radius: 10px;
+            cursor:pointer
+            }
+ /* Input field text */
+.txt-1{
+
+position: absolute;
+width:90%;
+left: 50%;
+top: 20%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+margin-bottom:2px ;
+color: rgba(0, 0, 0, 0.9);
+}
+
+.txt-2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    width: 90%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+.txt-3{
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+.txt-4{
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* CheckBox */
+.check{
+position: absolute;
+width: 100%;
+height: 40px;
+left: 50%;
+top: 80%;
+font-family: 'Inter';
+font-style: normal;
+font-size: 1rem;
+cursor: pointer;
+color: rgba(0, 0, 0, 0.9);
+}
+
+/* register Button */
+.register{
+    box-sizing: border-box;
+     text-align: center;
+     align-items: center;
+    position: absolute;
+    width: 45vw;
+    height: 49px;
+    left: 50%;
+    top: 84%;
+    cursor: pointer;
+    color: white;
+    background-color: #0A66C2;
+    background:#0A66C2;
+    border: 1px solid #0A66C2;
+    border-radius: 10px;
+}
+
+.register button{
+    /* margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent; 
+    border: none;
+    color: white;
+    cursor: pointer; */
+    margin-top: 10px;
+    font-size: 2.2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent; 
+    border: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    /* padding-left: 20px; */
+    padding:25px;
+    padding-left: 2px;
+    align-items: center;
+    margin: auto;
+}
+
+/* Have an account  */
+.Have{
+    box-sizing: border-box;
+    position: absolute;
+    left: 81%;
+    top: 95%;
+    width: 70%;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4vh;
+    /* cursor: pointer; */
+}
+
+.Have a{
+    color: rgba(0, 0, 0, 0.9);
+   cursor:  pointer ! important;
+   margin-right: 2rem;
+}
+
+/* --OR-- */
+.register-with{
+position: absolute;
+margin-top: 0.3rem;
+height: 40px;
+left: 65%;
+top: 95%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.9rem;
+line-height: 29px;
+color: rgba(0, 0, 0, 0.9);
+}
+
+/* Google  */
+.search{
+position: absolute;
+width: 20px;
+height: 25px;
+left: 65%;
+top: 100%;
+cursor: pointer;
+}
+
+.search:hover{
+    scale: 1.5;
+}
+
+/* facebook */
+.fb{
+position: absolute;
+width: 20px;
+height: 25px;
+left: 74%;
+top: 100%;
+cursor: pointer;
+/* background-color: #0A66C2; */
+margin-left: -3rem;
+margin-top: 1.3rem;
+}
+
+.fb:hover{
+    scale: 1.5;
+}
+
+
+@media screen and (max-width: 642px) {
+    body{
+        overflow: scroll;
+    }
+  } 
